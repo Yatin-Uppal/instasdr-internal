@@ -19,7 +19,7 @@ on:
 
 env:
   ENVIRONMENT: ${{ github.ref_name }}
-  ECR_REPOSITORY: "instasdr-website"
+  ECR_REPOSITORY: "instasdr/website"
 
 jobs:
   deploy:
