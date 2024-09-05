@@ -1,12 +1,12 @@
 ---
-slug: test-2-blog
+slug: test-5-blog
 title: Welcome
 authors: [slorber, yangshun]
-tags: [docusaurus]
+description: A brief description of your blog post that will be displayed with a larger font size.
+tags: [docusaurus, featured]
 ---
 
 ![Docusaurus Plushie](./deployment.png)
-Here is the description of the blog post.
 <!-- truncate -->
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
