@@ -66,14 +66,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Replace with your project's social car
     navbar: {
-      title: 'Instasdr',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'InstaSDR.ai',
       items: [
         // {
         //   type: 'docSidebar',

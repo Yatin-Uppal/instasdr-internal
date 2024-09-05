@@ -1,13 +1,13 @@
 ---
-slug: welcome
+slug: test-2-blog
 title: Welcome
 authors: [slorber, yangshun]
-tags: [facebook, featured]
+tags: [docusaurus]
 ---
 
 ![Docusaurus Plushie](./deployment.png)
-<!-- truncate -->
 Here is the description of the blog post.
+<!-- truncate -->
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
 Here are a few tips you might find useful.

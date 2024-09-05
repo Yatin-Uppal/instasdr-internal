@@ -1,6 +1,7 @@
 ---
-slug: welcome
+slug: first-blog
 title: Welcome
+description: InstaSDR.ai is a platform for SDR-based software-defined radio.
 authors: [slorber, yangshun]
 tags: [facebook, featured]
 ---

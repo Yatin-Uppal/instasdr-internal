@@ -1,8 +1,8 @@
 ---
-slug: welcome
+slug: test-blog
 title: Welcome
 authors: [slorber, yangshun]
-tags: [facebook, featured]
+tags: [docusaurus]
 ---
 
 ![Docusaurus Plushie](./deployment.png)
