@@ -22,6 +22,7 @@ export default function BlogPostItemFooterReadMoreLink(
   const { blogPostTitle, ...linkProps } = props;
   return (
     <Link
+      className={"custom-read-more"}
       aria-label={translate(
         {
           message: "Read more about {title}",

@@ -32,7 +32,7 @@
 .custom-box-outer {
   display: inline-flex;
   margin: 0 -15px 30px;
-  width: 100%;
+  /* width: 100%; */
   row-gap: 30px;
   flex-wrap: wrap;
 }
@@ -142,6 +142,9 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+[data-theme="dark"] .custom-blog-post-card:hover{
+  background-color: #181e25;
+}
 
 @media (max-width: 1024px) {
   .custom-blog-post-items-container {
@@ -169,4 +172,20 @@
     width: 100%;
     padding: 0;
 }
+}
+.custom-read-more
+{
+  color: #fff;
+  background: #25c2a0c9;
+  text-align: center;
+  width: 100%;
+  text-decoration: none !important;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.custom-read-more:hover
+{
+  color: #fff;
+  background: #25c2a0;
 }
