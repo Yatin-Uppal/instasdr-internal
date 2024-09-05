@@ -41,6 +41,9 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          showLastUpdateAuthor: false,
+          blogSidebarCount: 0,
+          postsPerPage: 16,
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
