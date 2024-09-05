@@ -49,12 +49,14 @@ export default function BlogPostItems({
         </div>
 
         {showViewAll && (
-          <Link
-            to={`${location.pathname}?type=${title.toLowerCase()}`}
-            className="view-all-link"
-          >
-            View All {title} Posts
-          </Link>
+          <div className="text-right w-full">
+            <Link
+              to={`${location.pathname}?type=${title.toLowerCase()}`}
+              className="view-all-link"
+            >
+              View All {title} Posts
+            </Link>
+          </div>
         )}
       </div>
     );
