@@ -31,22 +31,24 @@ export default function BlogPostItems({
         <h2 className="custom-blog-items-featured-heading featured-heading">
           {title}
         </h2>
-        <div className="custom-box-outer">
-          {displayBlogs.map(({ content: BlogPostContent }) => (
-            <div className="custom-blog-post-items-container">
-              <BlogPostProvider
-                key={BlogPostContent.metadata.permalink}
-                content={BlogPostContent}
-              >
-                <div className="custom-blog-post-card">
-                  <BlogPostItemComponent>
-                    <BlogPostContent />
-                  </BlogPostItemComponent>
-                </div>
-              </BlogPostProvider>
-            </div>
-          ))}
-        </div>
+        {displayBlogs.length ? (
+          <div className="custom-box-outer">
+            {displayBlogs.map(({ content: BlogPostContent }) => (
+              <div className="custom-blog-post-items-container">
+                <BlogPostProvider
+                  key={BlogPostContent.metadata.permalink}
+                  content={BlogPostContent}
+                >
+                  <div className="custom-blog-post-card">
+                    <BlogPostItemComponent>
+                      <BlogPostContent />
+                    </BlogPostItemComponent>
+                  </div>
+                </BlogPostProvider>
+              </div>
+            ))}
+          </div>
+        ) : null}
 
         {showViewAll && (
           <div className="text-right w-full">
