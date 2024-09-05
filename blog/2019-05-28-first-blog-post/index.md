@@ -1,7 +1,7 @@
 ---
 slug: test-1-blog
 title: Welcome
-description: A brief description of your blog post that will be displayed with a larger font size.
+description: A brief description of your blog post that will be displayed with a larger font size. A brief description of your blog post that will be displayed with a larger font size.
 authors: [slorber, yangshun]
 tags: [docusaurus, featured]
 ---

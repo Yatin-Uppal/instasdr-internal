@@ -23,6 +23,9 @@ export default function BlogPostItems({
   );
 
   const renderBlogSection = (blogs, title, showAll = false) => {
+    if(blogs.length === 0) {
+      return null;
+    }
     const displayBlogs = showAll ? blogs : blogs.slice(0, POSTS_PER_SECTION);
     const showViewAll = blogs.length > POSTS_PER_SECTION && !showAll;
 
