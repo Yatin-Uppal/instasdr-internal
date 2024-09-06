@@ -1,13 +1,11 @@
 function tailwindPlugin(context, options) {
     return {
-      name: 'tailwind-plugin',
-      configurePostCss(postcssOptions) {
-        postcssOptions.plugins = [
-          require('postcss-import'),
-          require('tailwindcss'),
-          require('autoprefixer'),
-        ];
-        return postcssOptions;
+      name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
       },
     };
   }
