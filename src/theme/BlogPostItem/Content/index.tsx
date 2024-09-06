@@ -4,6 +4,7 @@ import { blogPostContainerID } from "@docusaurus/utils-common";
 import { useBlogPost } from "@docusaurus/plugin-content-blog/client";
 import MDXContent from "@theme/MDXContent";
 import type { Props } from "@theme/BlogPostItem/Content";
+import Link from "@docusaurus/Link";
 
 export default function BlogPostItemContent({
   children,
@@ -17,7 +18,9 @@ export default function BlogPostItemContent({
       className={clsx("markdown", className)}
     >
       {/* here show the title */}
+      <Link to={metadata.permalink}>
       <MDXContent>{children}</MDXContent>
+      </Link>
       <h3>{frontMatter.title}</h3>
       <p>{frontMatter.description}</p>
     </div>
