@@ -10,7 +10,8 @@ export default function BlogPostItemContent({
   children,
   className,
 }: Props): JSX.Element {
-  const { isBlogPostPage, frontMatter, assets, metadata } = useBlogPost();
+  const { isBlogPostPage, frontMatter, metadata } = useBlogPost();
+  console.log(123, frontMatter)
   return (
     <div
       // This ID is used for the feed generation to locate the main content
@@ -18,9 +19,10 @@ export default function BlogPostItemContent({
       className={clsx("markdown", className)}
     >
       {/* here show the title */}
-      <Link to={metadata.permalink}>
+      {/* <Link to={metadata.permalink}>
+      <img src={frontMatter.image} alt="" />
+      </Link> */}
       <MDXContent>{children}</MDXContent>
-      </Link>
       <h3>{frontMatter.title}</h3>
       <p>{frontMatter.description}</p>
     </div>
