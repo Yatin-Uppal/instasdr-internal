@@ -1,0 +1,7 @@
+{$APP_DOMAIN:localhost} {
+  root * /var/docusaurus
+  encode gzip
+  try_files {path} /index.html
+  file_server
+  email: {$CONTACT_EMAIL}
+}
