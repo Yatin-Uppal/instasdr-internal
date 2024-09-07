@@ -17,10 +17,6 @@ on:
       - "docusaurus.config.ts"
       - "sidebars.ts"
 
-env:
-  ENVIRONMENT: ${{ github.ref_name }}
-  ECR_REPOSITORY: "instasdr/website"
-
 jobs:
   deploy:
     name: Deploy
@@ -33,27 +29,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-          role-session-name: GitHub_to_AWS_via_FederatedOIDC
-          aws-region: us-west-2
+          node-version: 20
 
-      - name: Login to AWS ECR
-        id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v2
-        with:
-          mask-password: true
+      - name: Install dependencies
+        run: npm install
 
-      - name: Build, tag, and push image to Amazon ECR
-        id: build-image
-        uses: docker/build-push-action@v5
+      - name: Build app
+        run: npm run build
+
+      - name: Upload to S3
+        uses: jakejarvis/s3-sync-action@master
         with:
-          push: true
-          context: .
-          file: ./Dockerfile
-          platforms: linux/amd64
-          tags: ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}:${{ env.ENVIRONMENT }}
-          secrets: |
-            APP_URL=${{ secrets.APP_URL }}
+          args: --acl public-read
+        env:
+          SOURCE_DIR: build/
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
