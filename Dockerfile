@@ -28,7 +28,9 @@ COPY . /opt/docusaurus/
 ## Install dependencies with `--immutable` to ensure reproducibility.
 RUN npm ci
 ## Build the static site.
-RUN npm run build
+RUN --mount=type=secret,id=APP_URL \
+    APP_URL=$(cat /run/secrets/APP_URL) \
+    npm run build
 
 # Stage 3a: Serve with `docusaurus serve`.
 FROM prod as serve
