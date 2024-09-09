@@ -28,7 +28,7 @@ return(
 
         <p className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] first-letter:text-8xl first-letter:font-bold mb-10">Back in April of 2020 I put up a long twitter thread on the emerging trend of Digital Gardening. It gathered a little buzz, and made clear we're in a moment where there is something culturally compelling about this concept.</p>
 
-        <div className="border border-[rgb(207, 217, 222)] rounded-md min-h-28 flex items-center justify-center mb-4 lg:mb-9">Twitter Box</div>
+        <div className="border border-[rgb(207, 217, 222)] rounded-md min-h-28 flex items-center justify-center mb-4 lg:mb-9 ">Twitter Box</div>
 
         <p className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-10">My <a href="#" className="text-[var(--color-bright-crimson)] underline">small collection</a> highlighted a number of sites that are taking a new approach to the way we publish personal knowledge on the web.</p>
 

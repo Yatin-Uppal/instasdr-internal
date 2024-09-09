@@ -15,14 +15,14 @@ const BlogHeader: React.FC<BlogHeaderProps> = ({ title, subtitle, tags, plantedD
         <h1 className="font-bold text-[var(--color-black)] mb-2 text-[32px] lg:text-[56px] leading-[var(--leading-tighter)]">{title}</h1>
         <p className="text-lg lg:text-3xl mt-7 m-0">{subtitle}</p>
       </div>
-      <div className="py-3 flex">
+      <div className="py-3 flex items-center border-t-2 border-solid border-red-50">
         <ul className="flex flex-wrap gap-3">
           {tags.map((tag, index) => (
             <li key={index}><a href="#" className="font-lato text-[var(--color-bright-crimson)]">{tag}</a></li>
           ))}
         </ul>
         <div className="ms-auto flex flex-col">
-          <p className="m-0 font-lato">{plantedDate}</p>
+          <p className="m-0 font-lato text-base">{plantedDate}</p>
           <p className="m-0 font-lato">{lastTendedDate}</p>
         </div>
       </div>

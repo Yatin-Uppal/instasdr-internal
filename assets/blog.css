@@ -1,6 +1,6 @@
 
 
-@import url('https:/./fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @font-face {
     font-family: 'canela_deck_black';
     src: url('./fonts/caneladeck-black.woff2') format('woff2'),
@@ -53,6 +53,12 @@
     font-weight: normal;
     font-style: normal;
 }
+* 
+{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
 
 
 :root{
@@ -92,14 +98,36 @@ body{
 
 ul{
     font-family: 'canela_deck_regular';
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
-
+.markdown li + li 
+{
+    margin-top: 0;
+}
 .font-lato{
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'canela_deck_bold' !important;
+}
+.bg-box
+{
+    background-color: var( --color-salmon);
+}
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+.h-3
+{
+    height: 3px;
 }
 
-p{
-    color: var(--color-gray-600);
+.custom_container p{
+    color: var(--color-black); 
     font-family: 'canela_text_light';
 }
 
@@ -125,4 +153,54 @@ p{
 
 .fontFamily-light{
     font-family: 'canela_text_light' !important;
+}
+
+.common-heading
+{ 
+    font-weight: 300;
+    font-family: "Lato", sans-serif !important;
+    color: var(--color-gray-800);
+    font-size: 33px;
+    margin-top: 33px;
+    margin-bottom: 22px;
+    display: inline-block;
+    width: 100%;
+}
+.common-heading a
+{ 
+    font-family: 'canela_text_light' !important;
+    font-size: 44px;
+    color: var(--color-gray-800);
+}
+.blog-post-page .container-box {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 !important;
+}
+.blog-post-page .container-box > .row{ 
+    margin: 0 !important;
+}
+.blog-post-page .container-box > .row > main 
+{
+    padding: 0;
+}
+.blog-post-page body 
+{
+    overflow-x: hidden !important;
+}
+.blog-post-page .markdown {
+    padding: 0;
+    border-radius: 0; 
+}
+blockquote { 
+    padding: 0;
+    border: none;
+    p 
+    {
+        font-size: 36px !important;
+    }
+}
+.max-1400
+{
+    max-width: 1400px;
 }
