@@ -2,56 +2,56 @@
 
 @font-face {
     font-family: 'canela_deck_black';
-    src: url('../../assets/fonts/caneladeck-black.woff2') format('woff2'),
-         url('../../assets/fonts/caneladeck-black.woff') format('woff');
+    src: url('./fonts/caneladeck-black.woff2') format('woff2'),
+         url('./fonts/caneladeck-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'canela_deck_bold';
-    src: url('../../assets/fonts/caneladeck-bold.woff2') format('woff2'),
-         url('../../assets/fonts/caneladeck-bold.woff') format('woff');
+    src: url('./fonts/caneladeck-bold.woff2') format('woff2'),
+         url('./fonts/caneladeck-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'canela_deck_medium';
-    src: url('../../assets/fonts/caneladeck-medium.woff2') format('woff2'),
-         url('../../assets/fonts/caneladeck-medium.woff') format('woff');
+    src: url('./fonts/caneladeck-medium.woff2') format('woff2'),
+         url('./fonts/caneladeck-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'canela_deck_regular';
-    src: url('../../assets/fonts/caneladeck-regular.woff2') format('woff2'),
-         url('../../assets/fonts/caneladeck-regular.woff') format('woff');
+    src: url('./fonts/caneladeck-regular.woff2') format('woff2'),
+         url('./fonts/caneladeck-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'canela_text_regular';
-    src: url('../../assets/fonts/canelatext-regular.woff2') format('woff2'),
-         url('../../assets/fonts/canelatext-regular.woff') format('woff');
+    src: url('./fonts/canelatext-regular.woff2') format('woff2'),
+         url('./fonts/canelatext-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'canela_text_medium';
-    src: url('../../assets/fonts/canelatext-medium.woff2') format('woff2'),
-         url('../../assets/fonts/canelatext-medium.woff') format('woff');
+    src: url('./fonts/canelatext-medium.woff2') format('woff2'),
+         url('./fonts/canelatext-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'canela_text_light';
-    src: url('../../assets/fonts/canelatext-light.woff2') format('woff2'),
-         url('../../assets/fonts/canelatext-light.woff') format('woff');
+    src: url('./fonts/canelatext-light.woff2') format('woff2'),
+         url('./fonts/canelatext-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -83,7 +83,7 @@
     --leading-looser: 200%;
 }
 
-body{
+.blog-container {
     font-family: 'canela_deck_regular';
     background: #fff;
 }
@@ -93,27 +93,27 @@ body{
     font-weight: 300;
 }
 
-p{
+.blog-container p{
     color: var(--color-gray-600);
     font-family: 'canela_text_light';
 }
 
-.custom_container{
+.blog-container .custom_container{
     max-width: 800px;
 }
 
-.font-medium{
+.blog-container .font-medium{
     font-family: 'canela_deck_medium' !important;
 }
 
-.font-regular{
+.blog-container .font-regular{
     font-family: 'canela_deck_regular' !important;
 }
 
-.font-black{
+.blog-container .font-black{
     font-family: 'canela_deck_black' !important;
 }
 
-.font-bold{
+.blog-container .font-bold{
     font-family: 'canela_deck_bold' !important;
 }
