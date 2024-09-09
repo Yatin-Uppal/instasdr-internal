@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+
+@import url('https:/./fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @font-face {
     font-family: 'canela_deck_black';
     src: url('./fonts/caneladeck-black.woff2') format('woff2'),
          url('./fonts/caneladeck-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
+}
 @font-face {
     font-family: 'canela_deck_bold';
     src: url('./fonts/caneladeck-bold.woff2') format('woff2'),
          url('./fonts/caneladeck-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
+}
 @font-face {
     font-family: 'canela_deck_medium';
     src: url('./fonts/caneladeck-medium.woff2') format('woff2'),
          url('./fonts/caneladeck-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
+}
 @font-face {
     font-family: 'canela_deck_regular';
     src: url('./fonts/caneladeck-regular.woff2') format('woff2'),
@@ -31,7 +32,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'canela_text_regular';
     src: url('./fonts/canelatext-regular.woff2') format('woff2'),
@@ -39,7 +39,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'canela_text_medium';
     src: url('./fonts/canelatext-medium.woff2') format('woff2'),
@@ -47,7 +46,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'canela_text_light';
     src: url('./fonts/canelatext-light.woff2') format('woff2'),
@@ -55,6 +53,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 
 :root{
     --color-light-cream: #FCFBF7;
@@ -81,39 +80,49 @@
     --leading-base: 140%;
     --leading-loose: 170%;
     --leading-looser: 200%;
+    --box-shadow-sm: 0.2px 0.2px 0.8px -10px rgba(40, 10, 0, 0.014), 0.4px 0.4px 2px -10px rgba(40, 10, 0, 0.02), 0.8px 0.8px 3.8px -10px rgba(40, 10, 0, 0.025), 1.3px 1.3px 6.7px -10px rgba(40, 10, 0, 0.03), 2.5px 2.5px 12.5px -10px rgba(40, 10, 0, 0.036), 6px 6px 30px -10px rgba(40, 10, 0, 0.05);
+    --box-shadow-md: 1px 0.9px 2.3px -3px rgba(30, 10, 10, 0.04), 2.4px 2.2px 5.5px -3px rgba(30, 10, 10, 0.05), 4.5px 4.1px 10.4px -3px rgba(30, 10, 10, 0.06), 8px 7.4px 18.5px -3px rgba(30, 10, 10, 0.07), 15px 13.8px 34.7px -3px rgba(30, 10, 10, 0.08), 36px 33px 83px -3px rgba(30, 10, 10, 0.2);
+    --box-shadow-lg: 0.2px 0.4px 0.8px -10px rgba(0, 0, 0, 0.03), 0.4px 0.9px 2px -10px rgba(0, 0, 0, 0.030), 0.8px 1.8px 3.8px -10px rgba(0, 0, 0, 0.038), 1.3px 3.1px 6.7px -10px rgba(0, 0, 0, 0.045), 2.5px 5.8px 12.5px -10px rgba(0, 0, 0, 0.06), 6px 14px 30px -10px rgba(0, 0, 0, 0.08);
 }
 
-.blog-container {
+body{
     font-family: 'canela_deck_regular';
     background: #fff;
 }
 
-.font-lato{
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+ul{
+    font-family: 'canela_deck_regular';
 }
 
-.blog-container p{
+.font-lato{
+    font-family: "Lato", sans-serif;
+}
+
+p{
     color: var(--color-gray-600);
     font-family: 'canela_text_light';
 }
 
-.blog-container .custom_container{
+.custom_container{
     max-width: 800px;
 }
 
-.blog-container .font-medium{
+.fontFamily-medium{
     font-family: 'canela_deck_medium' !important;
 }
 
-.blog-container .font-regular{
+.fontFamily-regular{
     font-family: 'canela_deck_regular' !important;
 }
 
-.blog-container .font-black{
+.fontFamily-black{
     font-family: 'canela_deck_black' !important;
 }
 
-.blog-container .font-bold{
+.fontFamily-bold{
     font-family: 'canela_deck_bold' !important;
+}
+
+.fontFamily-light{
+    font-family: 'canela_text_light' !important;
 }
