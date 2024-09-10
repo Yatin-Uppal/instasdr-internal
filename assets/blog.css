@@ -204,3 +204,188 @@ blockquote {
 {
     max-width: 1400px;
 }
+.text-gray
+{
+    color:  #73706d !important;
+}
+
+.borderBottom
+{
+    border-bottom: 1px solid #e6e3e1;
+}
+.smallText p 
+{
+    font-size: 15px;
+    color: var(--color-gray-600);
+}
+.bg_gradiant
+{
+    background: linear-gradient(var(--color-cream) 0,white 110px);
+}
+.h-88
+{
+    height: 80px;
+}
+.References
+{
+    padding-bottom: 66px;
+}
+.References  h5 {
+    border-top: 1px solid var(--color-tinted-cream);
+    margin-top: 44px;
+    padding-top: 33px;
+    margin-bottom: 22px;
+    font-family: "Lato", sans-serif !important;
+    font-size: 28px;
+    font-weight: 300;
+}
+.ref-Inner {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 11px;
+}
+.ref-Inner a {
+    color: var(--color-gray-800);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: 'Lato',sans-serif;
+}
+.ref-Inner span {
+    color: var(--color-gray-500);
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Lato',sans-serif;
+
+}
+.ref-Inner a:hover 
+{
+    color: var(--color-crimson);
+}
+.ref-Inner a:hover  svg
+{
+    fill: var(--color-sea-blue);
+}
+.wantShare
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Lato',sans-serif;
+}
+.wantShare span
+{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-gray-600);
+
+}
+.wantShare a
+{
+    color: var(--color-gray-600);
+}
+.wantShare svg 
+{
+    fill: var(--color-gray-600);
+}
+.wantShare a:hover svg
+{
+    fill: var(--color-sea-blue) !important;
+}
+.wantShare a:hover
+{
+    color: var(--color-sea-blue) !important;
+}
+.backLinks {
+    width: 880px;
+    max-width: 100%;
+    margin: 0px auto -3rem;
+    box-shadow: var(--box-shadow-lg);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--color-gray-100);
+    background: white;
+    margin-top: 88px;
+}
+.backLinks h5 { 
+    font-weight: 300;
+    font-size: 28px;
+    font-family: 'Lato',sans-serif !important;
+}
+.backLinks ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 33px;
+    gap: 20px;
+}
+.backLinks ul li 
+{
+    width: calc(50% - 20px);
+    color: var(--color-gray-600);
+    position: relative;
+    padding-left: 40px;
+}
+.backLinks ul li  a 
+{
+    color: var(--color-gray-600);
+   text-decoration: none; 
+}
+.backLinks ul li  h6 
+{
+    font-size: 22px;
+    font-family: 'Canela Text',serif !important;
+    font-weight: 400;
+    color: var(--color-gray-800);
+    margin: 0 0 8px;
+}
+.backLinks ul li  span 
+{
+    font-family: 'Lato',sans-serif;
+    
+}
+
+@media screen and (max-width:1023px)
+{
+    .blog-post-page .markdown
+    {
+        padding: 0 10px;
+    }
+    .text-\[22px\] {
+        font-size: 18px;
+    }
+    blockquote p {
+        font-size: 26px !important;
+    }
+    .common-heading {
+        font-size: 27px;
+        margin-top: 0;
+        margin-bottom: 22px;
+    }
+    .backLinks ul li
+    {
+        width: 100%;
+    }
+    .text-\[32px\] {
+        font-size: 25px;
+    }
+    .mainBanner
+    {
+        margin: 0 -10px;
+        padding: 20px;
+    }
+    .bg_gradiant
+    {
+        background: transparent;
+    }
+    footer.docusaurus-mt-lg {
+        padding: 0px 20px;
+    }
+    .common-heading a
+    {
+        font-size: 30px;
+    }
+}
