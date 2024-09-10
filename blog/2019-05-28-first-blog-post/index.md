@@ -4,23 +4,18 @@ title: "A Brief History & Ethos of the Digital Garden"
 description: "A newly revived philosophy for publishing personal knowledge on the web"
 tags: [featured]
 ---
-
-<!-- truncate -->
-
 import "../../assets/blog.css";
-import BlogHeader from '../../components/BlogHeader';
-import BlogContent from '../../components/BlogContent';
-import BlogImage from '../../components/BlogImage';
-import BlogParagraph from '../../components/BlogParagraph';
-import BlogQuote from '../../components/BlogQuote';
-import BlogSection from '../../components/BlogSection';
-import BlogSubsection from '../../components/BlogSubsection';
-import TwitterBox from '../../components/TwitterBox';
-import Divider from '../../components/Divider';
-import ImageGrid from '../../components/ImageGrid';
+import BlogContainer from "../../src/components/blogs/BlogContainer";
 
 
-<>
+<div className="thumbimg">
+![Docusaurus Plushie](https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1622719121/maggieappleton.com/notes/garden-history/garden-main_ayoaqo_shrink_szbgc7.png)
+</div>
+<!-- truncate -->
+<BlogContainer>
+
+
+
 <section className="bg-[var(--color-cream)] pt-8 mainBanner">
     <div className="custom_container px-6 md:mx-auto">
         <div className="pb-5 lg:pb-10 borderBottom">
@@ -40,7 +35,6 @@ import ImageGrid from '../../components/ImageGrid';
         </div>
     </div>
 </section>
-
 <section className="bg_gradiant pt-10 lg:pt-16">
     <div className="custom_container px-6 md:mx-auto">
         <img className="w-full mb-3" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1622719121/maggieappleton.com/notes/garden-history/garden-main_ayoaqo_shrink_szbgc7.png" alt="" /><p className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] first-letter:text-8xl first-letter:font-bold mb-10">Back in April of 2020 I put up a long twitter thread on the emerging trend of Digital Gardening. It gathered a little buzz, and made clear we're in a moment where there is something culturally compelling about this concept.</p>
@@ -724,4 +718,4 @@ import ImageGrid from '../../components/ImageGrid';
           </div>
         
 </section>
-</>
+</BlogContainer>
