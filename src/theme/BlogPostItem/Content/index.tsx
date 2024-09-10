@@ -11,20 +11,17 @@ export default function BlogPostItemContent({
   className,
 }: Props): JSX.Element {
   const { isBlogPostPage, frontMatter, metadata } = useBlogPost();
-  console.log(123, frontMatter)
   return (
     <div
       // This ID is used for the feed generation to locate the main content
       id={isBlogPostPage ? blogPostContainerID : undefined}
       className={clsx("markdown", className)}
     >
-      {/* here show the title */}
-      {/* <Link to={metadata.permalink}>
-      <img src={frontMatter.image} alt="" />
-      </Link> */}
       <MDXContent>{children}</MDXContent>
-      <h3>{frontMatter.title}</h3>
+      <h3 title={frontMatter.title}>{frontMatter.title.length > 22 ? `${frontMatter.title.slice(0, 22)}...` : frontMatter.title}</h3>
       <p>{frontMatter.description}</p>
     </div>
   );
 }
+
+

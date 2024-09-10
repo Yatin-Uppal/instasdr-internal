@@ -199,3 +199,10 @@
 [data-theme="light"] .custom-blog-post-card:hover{
   background-color: #f4f4f4;
 }
+
+.custom-blog-post-card img {
+  height: 150px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}

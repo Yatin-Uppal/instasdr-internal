@@ -3,7 +3,7 @@ slug: test-2-blog
 title: Welcome
 authors: [slorber, yangshun]
 description: A brief description of your blog post that will be displayed with a larger font size. A brief description of your blog post that will be displayed with a larger font size.
-tags: [docusaurus, featured]
+tags: [docusaurus]
 ---
 
 ![Docusaurus Plushie](./deployment.png)
