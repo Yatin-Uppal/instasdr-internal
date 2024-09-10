@@ -12,6 +12,7 @@ import BlogContainer from "../../src/components/blogs/BlogContainer";
 ![Docusaurus Plushie](https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1622719121/maggieappleton.com/notes/garden-history/garden-main_ayoaqo_shrink_szbgc7.png)
 </div>
 
+
 <!-- truncate -->
 
 import Section from '../../src/components/Section';
@@ -25,7 +26,7 @@ import ListItem from '../../src/components/ListItem';
 import Blockquote from '../../src/components/Blockquote';
 import Divider from '../../src/components/Divider';
 
-<BlogContainer>
+<BlogContainer slug="brief-history-ethos-digital-garden">
 <Section className="bg-[var(--color-cream)] pt-8 mainBanner">
   <Container className="custom_container px-6 md:mx-auto">
     <Banner className="pb-5 lg:pb-10 borderBottom">
