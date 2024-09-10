@@ -10,7 +10,7 @@ const BlogContainer: React.FC<BlogContainerProps> = ({ children }) => {
 
   useEffect(() => {
     const slug = 'brief-history-ethos-digital-garden';
-    if (location.pathname.includes(slug)) {
+    if (location?.pathname?.includes(slug)) {
       const thumbImgDiv = document.querySelector('.thumbimg');
       if (thumbImgDiv) {
         thumbImgDiv.remove();
