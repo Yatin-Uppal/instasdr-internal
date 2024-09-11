@@ -18,7 +18,7 @@ export default function BlogPostItemContent({
       className={clsx("markdown", className)}
     >
       <MDXContent>{children}</MDXContent>
-      <h3 title={frontMatter.title}>{frontMatter.title.length > 22 ? `${frontMatter.title.slice(0, 22)}...` : frontMatter.title}</h3>
+      <h3 title={frontMatter.title}>{frontMatter.title.length > 18 ? `${frontMatter.title.slice(0, 18)}...` : frontMatter.title}</h3>
       <p>{frontMatter.description}</p>
     </div>
   );
