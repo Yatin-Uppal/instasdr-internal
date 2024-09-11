@@ -37,9 +37,9 @@ export default function BlogPostItems({
         {displayBlogs.length ? (
           <div className="custom-box-outer">
             {displayBlogs.map(({ content: BlogPostContent }) => (
-              <div className="custom-blog-post-items-container">
+              <div className="custom-blog-post-items-container" key={BlogPostContent.metadata.permalink}>
                 <BlogPostProvider
-                  key={BlogPostContent.metadata.permalink}
+                  
                   content={BlogPostContent}
                 >
                   <div className="custom-blog-post-card">
