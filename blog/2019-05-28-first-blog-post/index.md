@@ -15,16 +15,16 @@ import BlogContainer from "../../src/components/blogs/BlogContainer";
 
 <!-- truncate -->
 
-import Section from '../../src/components/Section';
-import Container from '../../src/components/Container';
-import Banner from '../../src/components/Banner';
-import Heading from '../../src/components/Heading';
-import Paragraph from '../../src/components/Paragraph';
-import Image from '../../src/components/Image';
-import List from '../../src/components/List';
-import ListItem from '../../src/components/ListItem';
-import Blockquote from '../../src/components/Blockquote';
-import Divider from '../../src/components/Divider';
+import Section from '../../src/components/blogs/Section';
+import Container from '../../src/components/blogs/Container';
+import Banner from '../../src/components/blogs/Banner';
+import Heading from '../../src/components/blogs/Heading';
+import Paragraph from '../../src/components/blogs/Paragraph';
+import Image from '../../src/components/blogs/Image';
+import List from '../../src/components/blogs/List';
+import ListItem from '../../src/components/blogs/ListItem';
+import Blockquote from '../../src/components/blogs/Blockquote';
+import Divider from '../../src/components/blogs/Divider';
 
 <BlogContainer slug="brief-history-ethos-digital-garden">
 <Section className="bg-[var(--color-cream)] pt-8 mainBanner">
