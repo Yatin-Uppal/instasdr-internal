@@ -9,8 +9,8 @@ function CreateCampaign() {
               Create entire 1-click campaign!
             </h4>
             <form className="relative">
-              <input className="w-full h-16 border border-inputBg text-[22px] px-5 pr-52  placeholder:opacity-50 outline-0 !shadow-none	 text-[#8D8D8D] bg-inputBg rounded-[13px]" placeholder="Enter your company URL to try it out" />
-              <input className="absolute top-2.5 right-2.5 text-[#F7F9FC] border border-solid border-bgblack text-lg font-semibold bg-bgblack px-5 h-11 flex items-center justify-center rounded-full	cursor-pointer" type="submit" value="Create campaign"></input>
+              <input className="w-full font-inter h-16 border border-inputBg text-[22px] px-5 pr-52  placeholder:opacity-50 outline-0 !shadow-none	 text-[#8D8D8D] bg-inputBg rounded-[13px]" placeholder="Enter your company URL to try it out" />
+              <input className="font-inter absolute top-2.5 right-2.5 text-[#F7F9FC] border border-solid border-bgblack text-lg font-semibold bg-bgblack px-5 h-11 flex items-center justify-center rounded-full	cursor-pointer" type="submit" value="Create campaign"></input>
             </form>
             <p className="text-sm mt-6 mb-0">
               In this example, we'll use your website's data as the offer, then

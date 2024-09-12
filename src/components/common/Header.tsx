@@ -35,7 +35,7 @@ const Header  = () => {
                 </ul>
                 </div>
                 <div>
-                    <button type="button" className="cursor-pointer text-sm text-black font-semibold py-2 px-4 rounded-lg1 border  border-yellow bg-yellow hover:bg-lightYellow">
+                    <button type="button" className="font-inter cursor-pointer text-sm text-black font-semibold py-2 px-4 rounded-lg1 border  border-yellow bg-yellow hover:bg-lightYellow">
                     Start for Free
                     </button>
                 </div>

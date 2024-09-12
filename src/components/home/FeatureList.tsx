@@ -262,15 +262,15 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-yellowDark opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-x-2 gap-y-5 my-[88px]">
-          <div className="flex gap-2 text-sm font-semibold">  <img height="20" src="/img/checkCircleyellow.svg" /> Free unlimited Email warmup</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited mailboxes</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited Enrichment</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> 750 Million leads to target</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited 1-click campaigns</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Automatic sequencing</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Human-like email quality</div>
-          <div className="flex gap-2 text-sm font-semibold">  <img height="20"  src="/img/checkCircleyellow.svg" /> Machine-like email quantity</div>
+        <div className="grid grid-cols-4 gap-x-2 gap-y-5 mt-[88px] ">
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img height="20" src="/img/checkCircleyellow.svg" /> Free unlimited Email warmup</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited mailboxes</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited Enrichment</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> 750 Million leads to target</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited 1-click campaigns</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Automatic sequencing</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Human-like email quality</div>
+          <div className="flex items-center gap-2 text-xs font-semibold">  <img height="20"  src="/img/checkCircleyellow.svg" /> Machine-like email quantity</div>
         </div>
       </div>
     </React.Fragment>

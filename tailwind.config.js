@@ -17,6 +17,9 @@ module.exports = {
         container: '1320px',
         small: '978px'
       },
+      zIndex: {
+        1 : '1 '
+      },
  
       colors: {
         yellow: "#FFD41C",
@@ -36,6 +39,15 @@ module.exports = {
       borderRadius: {
         lg1: '10px',
         xxl: '20px'
+      },
+      animation: {
+        rotate: 'rotate 10s linear infinite',
+      },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg) scale(10)' },
+          '100%': { transform: 'rotate(-360deg) scale(10)' },
+        },
       },
     },
   },
