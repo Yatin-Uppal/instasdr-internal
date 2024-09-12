@@ -6,7 +6,7 @@ description: A brief description of your blog post that will be displayed with a
 tags: [docusaurus, featured]
 ---
 
-![Docusaurus Plushie](./deployment.png)
+![Docusaurus Plushie](./deployment.webp)
 <!-- truncate -->
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
