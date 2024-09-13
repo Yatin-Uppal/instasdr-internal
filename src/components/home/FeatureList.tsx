@@ -5,8 +5,8 @@ function FeatureList() {
   return (
     <React.Fragment>
       <div className="w-full max-w-small px-4 py-[60px] m-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[25px]">
-          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group">
+        <div className="flex overflow-auto md:overflow-hidden  md:grid  md:grid-cols-3 gap-[25px]">
+          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]">
             <div className="h-[18px] min-w-[18px] w-[18px] bg-orange rounded-full absolute top-[14px] left-[14px]">
               <img
                 src="/img/check.svg"
@@ -48,7 +48,7 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-orange opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl  transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
 
-          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group">
+          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]">
             <div className="h-[18px] min-w-[18px] w-[18px] bg-blue rounded-full absolute top-[14px] left-[14px]">
               <img
                 src="/img/check.svg"
@@ -92,7 +92,7 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-blue opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
 
-          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group">
+          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]">
             <div className="h-[18px] min-w-[18px] w-[18px] bg-lightGreen rounded-full absolute top-[14px] left-[14px]">
               <img
                 src="/img/check.svg"
@@ -134,7 +134,7 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-lightGreen opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
 
-          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group">
+          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]">
             <div className="h-[18px] min-w-[18px] w-[18px] bg-purple rounded-full absolute top-[14px] left-[14px]">
               <img
                 src="/img/check.svg"
@@ -176,7 +176,7 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-purple opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
 
-          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group">
+          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]">
             <div className="h-[18px] min-w-[18px] w-[18px] bg-green rounded-full absolute top-[14px] left-[14px]">
               <img
                 src="/img/check.svg"
@@ -220,7 +220,7 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-green opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
 
-          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group">
+          <div className="flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]">
             <div className="h-[18px] min-w-[18px] w-[18px] bg-yellowDark rounded-full absolute top-[14px] left-[14px]">
               <img
                 src="/img/check.svg"
@@ -262,7 +262,7 @@ function FeatureList() {
             <div className="w-full h-full rounded-full bg-yellowDark opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]"></div>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-x-2 gap-y-5 mt-[88px] ">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-5 mt-16 md:mt-[88px] ">
           <div className="flex items-center gap-2 text-xs font-semibold">  <img height="20" src="/img/checkCircleyellow.svg" /> Free unlimited Email warmup</div>
           <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited mailboxes</div>
           <div className="flex items-center gap-2 text-xs font-semibold">  <img  height="20" src="/img/checkCircleyellow.svg" /> Free unlimited Enrichment</div>

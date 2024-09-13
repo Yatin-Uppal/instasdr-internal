@@ -4,20 +4,20 @@ import React from "react";
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="w-full max-w-container px-4 py-[60px] m-auto">
-        <p className="text-2xl tex-white mb-2 ">
+      <div className="w-full max-w-container px-4 pb-8 md:py-[60px] m-auto">
+        <p className="text-lg md:text-2xl tex-white mb-2 ">
           If you have questions email us at
         </p>
         <Link
-          className="text-[32px] font-semibold !no-underline !text-[#FF891C]"
+          className="text-[28px] md:text-[32px] font-semibold !no-underline !text-[#FF891C]"
           href=""
         >
           hello@InstaSDR.ai
         </Link>
-        <div className="h-px w-full my-14 bg-[#D9D9D9] opacity-30"></div>
+        <div className="h-px w-full my-7 md:my-14 bg-[#D9D9D9] opacity-30"></div>
 
-        <div className="flex flex-wrap">
-          <div className="w-4/6">
+        <div className="flex flex-wrap gap-y-6">
+          <div className="w-full md:w-4/6">
             <span className="text-sm font-bold text-yellow mb-6 inline-block w-full">
               Product
             </span>
@@ -68,8 +68,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/3">
-            <div className="grid grid-cols-1 md:grid-cols-2 ">
+          <div className="w-full md:w-1/3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 ">
               <div>
                 <span className="text-sm font-bold text-yellow mb-6 inline-block w-full">
                   For Marketing teams
@@ -107,7 +107,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-14 text-white text-sm opacity-50">© InstaSDR.ai</div>
+        <div className="mt-6 md:mt-14 text-white text-sm opacity-50">© InstaSDR.ai</div>
       </div>
     </React.Fragment>
   );

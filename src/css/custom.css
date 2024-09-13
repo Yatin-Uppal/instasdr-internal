@@ -27,7 +27,26 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 1px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 body 
 {
@@ -219,5 +238,44 @@ ul
 }
 .shadow-box
 {
-  box-shadow: 0 -23px 10px rgb(255 255 255 / 66%);
+  box-shadow: 0 -40px 10px rgb(255 255 255 / 66%);
+}
+.before-content::before
+{
+  width: 109%;
+  position: absolute;
+  content: '';
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.20;
+  left: -59%;
+}
+.linerGradiant-Cicle
+{
+  width: 500px;
+  height: 215px;
+  background: linear-gradient(90.8deg, #801CFF 2.01%, #00FFFF 99.38%);
+  position: absolute;
+  bottom: 0;
+  border-radius: 100%;
+  opacity: 50%;
+}
+
+@media screen and (max-width: 767px)
+{
+  .three-box {
+      width: 280px;
+      min-width: 280px;
+      max-width: 280px;
+  }
+  .mb-height
+  {
+    height: calc(100vh - 70px);
+    top: 70px;
+    overflow: auto;
+  }
+  .before-content::before
+  { 
+    display: none;
+  }
 }

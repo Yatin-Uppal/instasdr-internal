@@ -34,7 +34,7 @@ module.exports = {
         lightGreen: '#00FFC2',
         green: '#00A52E',
         purple: '#9E00FF',
-        
+        zblack: '#000'
       },
       borderRadius: {
         lg1: '10px',

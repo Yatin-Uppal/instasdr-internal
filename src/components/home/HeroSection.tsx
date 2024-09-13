@@ -3,8 +3,8 @@ import React from 'react'
 const HeroSection = () => {
   return (
     <React.Fragment>
-      <div className='py-24 text-center'>
-      <img src="/img/bg-top.png" className='absolute right-0 top-0 z-[-1]' />
+      <div className='py-16 pt-12 md:py-24 text-center'>
+      <img src="/img/bg-top.png" className='absolute right-0 top-0 z-[-1] opacity-20 md:opacity-100 ' />
       <img src="/img/ellipse.png" className='absolute left-0 top-0  z-[-1]' />
         
         <div className='w-full max-w-container px-4 m-auto'>
