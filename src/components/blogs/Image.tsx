@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface ImageProps {
   className?: string;
@@ -11,6 +11,19 @@ const Image: React.FC<ImageProps> = ({ className, src, alt }) => {
 
   const toggleZoom = () => setIsZoomed(!isZoomed);
 
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isZoomed) {
+        setIsZoomed(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isZoomed]);
   return (
     <>
       <img
