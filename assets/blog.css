@@ -94,6 +94,14 @@
     background: #fff;
 }
 
+.blog-post-page body 
+{
+    background-color: #fff !important;
+}
+.blog-post-page .main-header 
+{
+    background-color: #000100 !important;
+}
 .blog-container ul {
     font-family: 'canela_deck_regular';
     padding: 0;
