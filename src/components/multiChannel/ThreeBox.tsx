@@ -5,7 +5,7 @@ function ThreeBox() {
     <React.Fragment>
       <div className="w-full max-w-[1046px] px-4   m-auto">
         <div className="flex overflow-auto md:overflow-hidden md:grid md:grid-cols-3 gap-5">
-          <div className="rounded-xxl py-5 px-6 md:py-[30px] md:px-9 bg-zblack shadow-lightorange min-w-[280px] max-w-[280px]">
+          <div className="rounded-xxl py-5 px-6 md:py-[30px] md:px-9 bg-zblack shadow-lightorange min-w-[280px] max-w-[280px] md:max-w-full">
             <div className="w-6 h-6 flex justify-center items-center mb-4">
               <img src="/img/customer.svg" />
             </div>
@@ -19,7 +19,7 @@ function ThreeBox() {
             </p>
           </div>
 
-          <div className="rounded-xxl px-6 md:py-[30px] md:px-9 bg-zblack shadow-lightgreen min-w-[280px] max-w-[280px]">
+          <div className="rounded-xxl px-6 md:py-[30px] md:px-9 bg-zblack shadow-lightgreen min-w-[280px] max-w-[280px] md:max-w-full">
             <div className="w-6 h-6 flex justify-center items-center mb-4">
               <img src="/img/global.svg" />
             </div>
@@ -33,7 +33,7 @@ function ThreeBox() {
             </p>
           </div>
 
-          <div className="rounded-xxl px-6 md:py-[30px] md:px-9 bg-zblack shadow-lightblue min-w-[280px] max-w-[280px]">
+          <div className="rounded-xxl px-6 md:py-[30px] md:px-9 bg-zblack shadow-lightblue min-w-[280px] max-w-[280px] md:max-w-full">
             <div className="w-6 h-6 flex justify-center items-center mb-4">
               <img src="/img/lessFraud.svg" />
             </div>
