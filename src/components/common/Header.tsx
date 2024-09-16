@@ -34,7 +34,7 @@ const Header = () => {
         <div className="w-full max-w-container px-4 m-auto inline-flex items-center justify-between">
           <div className="inline-flex gap-10 lg:gap-x-48">
             <Link
-              href="#"
+              href="/"
               className="font-semibold text-xl	text-white !no-underline hover:text-white"
             >
               InstaSDR.ai
