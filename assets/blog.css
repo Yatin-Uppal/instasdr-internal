@@ -102,7 +102,10 @@
 }
 
 .blog-container .markdown li + li {
-    margin-top: 0;
+    margin-top: 0 !important;
+}
+.blog-container ul.flex.flex-wrap.gap-3 li {
+    margin-top: 0 !important;
 }
 
 .blog-container .font-lato {
