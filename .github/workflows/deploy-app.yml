@@ -45,7 +45,8 @@ jobs:
       - name: Upload to S3
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --acl public-read
+          # Delete all old unused files in the bucket
+          args: --delete
         env:
           SOURCE_DIR: build/
           AWS_S3_BUCKET: instasdr-${{ github.ref_name }}-website
