@@ -18,7 +18,6 @@ import CreateCampaignWork from "../components/home/CreateCampaignWork";
 import EmailCreations from "../components/home/EmailCreations";
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <main>
       <Header />

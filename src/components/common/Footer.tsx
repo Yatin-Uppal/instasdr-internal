@@ -4,7 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="w-full max-w-container px-4 pb-8 md:py-[60px] m-auto">
+      <div className="bg-[#000100] w-full">
+      <div className="max-w-container px-4 pb-8 md:py-[60px] m-auto ">
         <p className="text-lg md:text-2xl tex-white mb-2 ">
           If you have questions email us at
         </p>
@@ -108,6 +109,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-6 md:mt-14 text-white text-sm opacity-50">© InstaSDR.ai</div>
+      </div>
       </div>
     </React.Fragment>
   );

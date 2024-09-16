@@ -30,7 +30,7 @@ const Header = () => {
   //   }, [openTab]);
   return (
     <React.Fragment>
-      <nav className="w-full flex justify-center py-5 md:py-10  top-0  z-10">
+      <nav className="w-full flex justify-center py-5 md:py-10  top-0  z-10 main-header">
         <div className="w-full max-w-container px-4 m-auto inline-flex items-center justify-between">
           <div className="inline-flex gap-10 lg:gap-x-48">
             <Link
