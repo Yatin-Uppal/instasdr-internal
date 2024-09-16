@@ -1,38 +1,52 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "@docusaurus/Link";
-import arrowDown from "../../assets/images/arrow-down.svg";
-import Image from "../Image";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const Header = () => {
-  const [openTab, setOpenTab] = useState<"product" | "marketing">(null);
+  const [openTab, setOpenTab] = useState<"product" | "marketing" | null>(null);
+  const menuRef = useRef<HTMLDivElement>(null);
+
   const handleDropdownOpen = (tab: "product" | "marketing") => {
-    setOpenTab(tab);
+    setOpenTab(prevTab => prevTab === tab ? null : tab);
   };
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+      setOpenTab(null);
+    }
+  };
+
+  const handleEscapeKey = (event: KeyboardEvent) => {
+    if (event.key === 'Escape') {
+      setOpenTab(null);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', handleEscapeKey);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleEscapeKey);
+    };
+  }, []);
+
   const [flag, setFlag] = useState<boolean>(false)
   const handleClick = (flagValue: boolean) => {
     flagValue ? document.body.classList.add('overflow-hidden') : document.body.classList.remove('overflow-hidden')
     setFlag(flagValue)
   }
-  //   const handleClickOutside = (event) => {
-  //     setOpenTab(null)
-  //   };
-  //   useEffect(() => {
-  //     if (openTab !== null) {
-  //       document.addEventListener("mousedown", handleClickOutside);
-  //     } else {
-  //       document.removeEventListener("mousedown", handleClickOutside);
-  //     }
-
-  //     return () => {
-  //       document.removeEventListener("mousedown", handleClickOutside);
-  //     };
-  //   }, [openTab]);
   return (
     <React.Fragment>
-      <nav className="w-full flex justify-center py-5 md:py-10  top-0  z-10 main-header">
+      {openTab !== null && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-[5]"
+          onClick={() => setOpenTab(null)}
+        />
+      )}
+      <nav className="w-full flex justify-center py-5 md:py-10 top-0 z-20 main-header">
         <div className="w-full max-w-container px-4 m-auto inline-flex items-center justify-between">
-          <div className="inline-flex gap-10 lg:gap-x-48">
+          <div className="inline-flex gap-10 lg:gap-x-48" ref={menuRef}>
             <Link
               href="/"
               className="font-semibold text-xl	text-white !no-underline hover:text-white"
