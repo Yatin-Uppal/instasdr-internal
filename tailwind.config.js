@@ -11,6 +11,10 @@ module.exports = {
       fontFamily: {
         inter: '"Inter", sans-serif'
       },
+
+      margin: {
+        15: '15px'
+      },
      
       maxWidth:
       {
@@ -48,6 +52,11 @@ module.exports = {
           '0%': { transform: 'rotate(0deg) scale(10)' },
           '100%': { transform: 'rotate(-360deg) scale(10)' },
         },
+      },
+      boxShadow: {
+        'lightorange': '0px 4px 34px 0px #FF6B001F',
+        'lightgreen': '0px 4px 34px 0px #00A52E33',
+        'lightblue': '0px 4px 34px 0px #00A3FF33',
       },
     },
   },
