@@ -1,5 +1,6 @@
 import Link from "@docusaurus/Link";
 import React, { useState } from "react";
+import CommonSectionWithEmail from "./CommonSectionWithEmail";
 
 function EmailCreations() {
   const [flag, setFlag] = useState(false);
@@ -13,24 +14,17 @@ function EmailCreations() {
   return (
     <React.Fragment>
       <div className="w-full max-w-container px-4 py-[60px] m-auto">
-        <div className="text-center relative">
-          <div className="absolute left-0 right-0 text-center top-28 bottom-0 flex items-center justify-center z-0">
-            <div className="w-[450px] h-[142px] bg-[#00C2FF] blur-[150px] rounded-full m-auto"></div>
-          </div>
-          <img className="md:max-w-[inherit] max-w-44" src="/img/email.svg" />
-          <div className="relative z-1 w-full text-center inline-block">
-            <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[750px] mb-0 -mt-4 md:-mt-12">
-              No wasting time on{" "}
-              <span className="text-[#00F0FF]">email creation</span> or
-              sequencing or branching
-            </h2>
-            <p className="text-base md:text-lg text-white mt-5 mb-0">
-              Our AI will create multiple personalized emails, it’ll also decide
-              on sequencing, if-then-do-this branching
-            </p>
-          </div>
-        </div>
-
+        <CommonSectionWithEmail color="#00F0FF">
+          <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[750px] mb-0 -mt-4 md:-mt-12">
+            No wasting time on{" "}
+            <span className="text-[#00F0FF]">email creation</span> or sequencing
+            or branching
+          </h2>
+          <p className="text-base md:text-lg text-white mt-5 mb-0">
+            Our AI will create multiple personalized emails, it’ll also decide
+            on sequencing, if-then-do-this branching
+          </p>
+        </CommonSectionWithEmail>
         <div className="grid grid-col-1 md:grid-cols-3 gap-x-9  mt-16 md:mt-32 items-start ">
           <div>
             <div className="border border-solid border-[#484848] rounded-xxl relative">
@@ -151,7 +145,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 1 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 1 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -288,7 +284,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 2 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 2 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -425,7 +423,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 3 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 3 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -562,7 +562,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 4 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 4 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -699,7 +701,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 5 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 5 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -836,7 +840,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 6 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 6 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -973,7 +979,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 7 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 7 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -1110,7 +1118,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 8 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 8 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -1247,7 +1257,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 9 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 9 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -1374,7 +1386,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 10 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 10 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
@@ -1501,7 +1515,9 @@ function EmailCreations() {
                 >
                   <img
                     src="/img/arrow-down-xxl.svg"
-                    className={` ${currentOpen === 11 ? "rotate-180" : "rotate-0"}`}
+                    className={` ${
+                      currentOpen === 11 ? "rotate-180" : "rotate-0"
+                    }`}
                     alt="Arrow"
                   />
                 </button>
