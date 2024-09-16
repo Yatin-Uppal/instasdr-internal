@@ -72,7 +72,7 @@ const Header = () => {
                     <li className="grid grid-col-1 md:grid-cols-3 md:gap-8">
                       <ul>
                         <li>
-                          <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
+                          <Link href="/multi-channel-campaign" className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
                               <img src="/img/roket.svg" />
                             </div>
