@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+featured:
+  label: featured
+  permalink: /featured
+  description: featured tag description

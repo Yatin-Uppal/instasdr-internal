@@ -4,7 +4,9 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+
+
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -27,4 +29,180 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-box-outer {
+  display: inline-flex;
+  margin: 0 -15px 30px;
+  width: 100%;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+.custom-blog-post-items-container {
+  width: 25%;
+  padding: 0 15px;
+  position: relative;
+}
+.custom-box-outer article.margin-bottom--xl {
+  margin: 0 !important;
+}
+.custom-box-outer footer {
+  margin-top: 0;
+  padding: 0 15px 20px;
+}
+.custom-box-outer header {
+  padding: 0 15px;
+}
+.custom-blog-post-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.blog-post-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-post-title {
+  font-size: 1.2rem;
+  margin: 10px 15px;
+}
+
+.blog-post-excerpt {
+  font-size: 0.9rem;
+  margin: 0 15px 10px;
+  flex-grow: 1;
+}
+
+.blog-post-read-more {
+  display: block;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 15px;
+  border-radius: 4px;
+}
+
+.blog-post-read-more:hover {
+  background-color: #e0e0e0;
+}
+
+[data-theme="dark"] .custom-blog-post-card {
+  border-color: #28393E;
+  background: #030C14;
+}
+[data-theme="dark"] body 
+{
+  background-color: #000;
+}
+[data-theme="dark"] .navbar
+{
+  background-color: #000;
+}
+[data-theme="dark"] .footer
+{
+  background-color: #000;
+  border-top: 1px solid rgba(217, 217, 217, 0.30);
+}
+[data-theme="dark"] 
+{
+  background-color: #000;
+}
+.footer__title {
+  color: #25c2a0;
+}
+.markdown {
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.custom-blog-post-card h6 a 
+{
+  color: #fff;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.custom-blog-items-latest{
+  margin-top: 50px;
+}
+.custom-box-outer p {
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+[data-theme="dark"] .custom-blog-post-card:hover{
+  background-color: #181e25;
+}
+
+@media (max-width: 1024px) {
+  .custom-blog-post-items-container {
+    width: 33.33%; 
+  }
+}
+  @media (max-width: 768px) {
+  .custom-blog-post-items-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+   
+}
+@media (max-width: 767px) {
+  .custom-blog-post-items-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .custom-blog-post-items-container {
+    width: 100%; 
+  }
+  .custom-box-outer
+  {
+    margin: 0;
+  }
+  .custom-blog-post-items-container {
+    width: 100%;
+    padding: 0;
+}
+}
+.custom-read-more
+{
+  color: #fff;
+  background: #25c2a0c9;
+  text-align: center;
+  width: 100%;
+  text-decoration: none !important;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.custom-read-more:hover
+{
+  color: #fff;
+  background: #25c2a0;
+}
+
+[data-theme="light"] .custom-blog-post-card:hover{
+  background-color: #f4f4f4;
+}
+
+.custom-blog-post-card img {
+  height: 150px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
 }
