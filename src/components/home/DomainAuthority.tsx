@@ -5,7 +5,7 @@ function DomainAuthority() {
   return (
     <React.Fragment>
       <div className="w-full max-w-container px-4   m-auto">
-        <CommonSectionWithEmail color="#00F0FF">
+        <CommonSectionWithEmail color="#0075FF">
           <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0 -mt-4 md:-mt-12">
             No worrying about <br></br> your{" "}
             <span className="text-[#0075FF]">domain authority</span>

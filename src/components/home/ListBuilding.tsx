@@ -44,7 +44,7 @@ function ListBuilding() {
           Recepient Persona
         </strong>
       </CommonSectionWithEmail>
-      <div className="flex md:grid md:grid-cols-3 gap-3 md:gap-14 mt-6 md:mt-28 md:overflow-hidden overflow-auto">
+      <div className="flex md:grid md:grid-cols-3 gap-3 lg:gap-14 mt-6 md:mt-28 md:overflow-hidden overflow-auto">
         {avatarData.map((avatar, index) => (
           <AvatarCard
             key={index}

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function HeroSection() {
   return (
@@ -8,13 +8,11 @@ function HeroSection() {
 
         <div className="w-full max-w-container px-4 m-auto">
           <h1 className="text-3xl	md:text-[56px] md:leading-[70px] font-inter text-light mb-4">
-            1-Click <span className="text-yellow w-full md:w-auto  inline-block">Multi-Channel AI SDR</span>
+          LinkedIn  <span className="text-yellow w-full md:w-auto  inline-block">Campaign</span>
           </h1>
           <p className=" text-base text-light w-full max-w-[840px] m-auto">
-            {" "}
-            Revolutionize your sales outreach with autonomous, AI-powered,
-            multi-channel prospecting. Boost efficiency and conversion rates
-            across email, video, LinkedIn, and phone.
+          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+          "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
           </p>
           <button
             type="button"
@@ -22,13 +20,13 @@ function HeroSection() {
           >
             Get Started
           </button>
-          <div className="w-full">
-            <img src="/img/multichannel.png" />
+          <div className="w-full mb-10">
+            <img src="/img/linkedincampain.png" />
           </div>
         </div>
       </div>
     </React.Fragment>
-  );
+  )
 }
 
-export default HeroSection;
+export default HeroSection
