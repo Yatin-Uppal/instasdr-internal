@@ -61,7 +61,7 @@ const Footer = () => {
                   <Link className="text-white text-xs hover:text-yellow cursor-pointer">
                     Email-only campaign
                   </Link>
-                  <Link className="text-white text-xs hover:text-yellow cursor-pointer">
+                  <Link href="/linkedin-campaign" className="text-white text-xs hover:text-yellow cursor-pointer">
                     LinkedIn-only campaign
                   </Link>
                   <Link className="text-white text-xs hover:text-yellow cursor-pointer">
