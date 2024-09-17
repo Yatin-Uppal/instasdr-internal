@@ -21,7 +21,7 @@ function EmailCreations() {
             or branching
           </h2>
           <p className="text-base md:text-lg text-white mt-5 mb-0">
-            Our AI will create multiple personalized emails, it’ll also decide
+            Our AI will create multiple personalized emails, it'll also decide
             on sequencing, if-then-do-this branching
           </p>
         </CommonSectionWithEmail>
@@ -126,7 +126,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -161,6 +161,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative opacity-20"
                 src="/img/arrow-white.svg"
+                alt="white arrow"
               />
             </div>
           </div>
@@ -265,7 +266,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -300,6 +301,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative opacity-20"
                 src="/img/arrow-white.svg"
+                alt="white arrow"
               />
             </div>
           </div>
@@ -404,7 +406,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -439,6 +441,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative opacity-20"
                 src="/img/arrow-white.svg"
+                alt="white arrow"
               />
             </div>
           </div>
@@ -543,7 +546,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -578,6 +581,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative"
                 src="/img/arrow-white.svg"
+                alt="white arrow"
               />
             </div>
           </div>
@@ -682,7 +686,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -717,6 +721,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative "
                 src="/img/arrow-white.svg"
+                alt="white arrow"
               />
             </div>
           </div>
@@ -821,7 +826,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -856,6 +861,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative"
                 src="/img/arrow-white.svg"
+                alt="arrow"
               />
             </div>
           </div>
@@ -960,7 +966,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -995,6 +1001,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative"
                 src="/img/arrow-white.svg"
+                alt="arrow"
               />
             </div>
           </div>
@@ -1099,7 +1106,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -1134,6 +1141,7 @@ function EmailCreations() {
               <img
                 className="m-auto -top-2.5 relative"
                 src="/img/arrow-white.svg"
+                alt="arrow"
               />
             </div>
           </div>
@@ -1238,7 +1246,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -1367,7 +1375,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 
@@ -1496,7 +1504,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" />
+                  <img src="/img/dummy.jpg" alt="dummy" />
                 </div>
               </div>
 

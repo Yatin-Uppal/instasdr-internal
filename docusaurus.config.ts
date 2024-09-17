@@ -126,6 +126,9 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    metadata: [
+      {name: 'description', content: 'Instasdsr Email campaign.'},
+    ],
   } satisfies Preset.ThemeConfig,
 };
 

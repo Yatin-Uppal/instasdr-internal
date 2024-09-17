@@ -65,7 +65,7 @@ const Header = () => {
                   } hover:text-yellow cursor-pointer gap-2.5 inline-flex w-full md:w-auto`}
                 >
                   Product
-                  <img className="ml-auto" src="/img/arrow-down.svg" />
+                  <img className="ml-auto" src="/img/arrow-down.svg" alt="arrow-down"/>
                 </Link>
                 {openTab === "product" && (
                   <ul className="relative md:absolute md:mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
@@ -267,7 +267,7 @@ const Header = () => {
                   } hover:text-yellow cursor-pointer gap-2.5 inline-flex w-full md:w-auto`}
                 >
                   For Marketing teams
-                  <img className="ml-auto" src="/img/arrow-down.svg" />
+                  <img className="ml-auto" src="/img/arrow-down.svg" alt="arrow-down"/>
                 </Link>
                 {openTab === "marketing" && (
                   <ul className="relative md:absolute md:mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
