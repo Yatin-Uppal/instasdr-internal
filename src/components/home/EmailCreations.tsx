@@ -33,7 +33,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 lg:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -126,7 +126,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -173,7 +173,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -266,7 +266,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -313,7 +313,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -406,7 +406,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -453,7 +453,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -546,7 +546,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -593,7 +593,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -686,7 +686,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -733,7 +733,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -826,7 +826,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -873,7 +873,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -966,7 +966,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1013,7 +1013,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -1106,7 +1106,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1153,7 +1153,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -1246,7 +1246,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1282,7 +1282,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -1375,7 +1375,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1411,7 +1411,7 @@ function EmailCreations() {
                   <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                 </div>
               </div>
-              <div className="px-5 pt-8 pb-6 grid grid-cols-3 gap-y-5 gap-x-3">
+              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
                 <div className="flex gap-2 items-start">
                   <img src="/img/checkCircleblue.svg" alt="check" />
                   <div className="flex flex-col gap-0.5">
@@ -1504,7 +1504,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 

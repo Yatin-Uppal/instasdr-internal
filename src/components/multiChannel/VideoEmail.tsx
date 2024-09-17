@@ -3,7 +3,7 @@ import React from "react";
 function VideoEmail() {
   return (
     <React.Fragment>
-      <div className="w-full max-w-[988px] px-4 py-0 md:py-[60px] !pb-0  m-auto">
+      <div className="w-full max-w-[988px] pt-20 px-4 py-0 md:py-[60px] md:!pb-0  m-auto">
         <div className="text-center relative">
           <div className="absolute left-0 right-0 text-center top-0 bottom-0 flex items-center justify-center z-0">
             <div className="w-[450px] h-[142px] bg-[#0DF578] blur-[150px] rounded-full m-auto"></div>
@@ -16,35 +16,35 @@ function VideoEmail() {
             <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0">
               AI-Powered <span className="text-[#0DF578]">Video Email</span>
             </h2>
-            <p className="text-base md:text-lg text-white  m-auto mt-5 mb-0 max-w-[710px]">
+            <p className="text-base md:text-lg text-white  m-auto mt-2.5 md:mt-5 mb-0 max-w-[710px]">
               Leverage the power of personalized video messages to significantly
               boost engagement and conversion rates.
             </p>
 
-            <div className="grid grid-col-1 md:grid-cols-2 gap-7 max-w-[860px] m-auto mt-12">
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#0DF578]">
-                <div className="w-5 h-5 bg-[#0DF578] flex items-center justify-center rounded-full">
+            <div className="grid grid-col-1 md:grid-cols-2 gap-5 md:gap-7 max-w-[860px] m-auto mt-12">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#0DF578]">
+                <div className="w-5 h-5 min-w-5 bg-[#0DF578] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 AI-generated personalized video scripts
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#0DF578]">
-                <div className="w-5 h-5 bg-[#0DF578] flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#0DF578]">
+                <div className="w-5 h-5 min-w-5 bg-[#0DF578] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Automated video creation and editing
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#0DF578]">
-                <div className="w-5 h-5 bg-[#0DF578] flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#0DF578]">
+                <div className="w-5 h-5 min-w-5 bg-[#0DF578] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Seamless integration with email campaigns
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#0DF578]">
-                <div className="w-5 h-5 bg-[#0DF578] flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#0DF578]">
+                <div className="w-5 h-5 min-w-5 bg-[#0DF578] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Performance tracking and optimization
@@ -55,7 +55,7 @@ function VideoEmail() {
       </div>
 
       <div className=" max-w-[1064px] w-full m-auto px-4 mt-[60px]">
-        <div className="bg-[#05050A] px-7 py-9 rounded-xxl relative overflow-hidden">
+        <div className="bg-[#05050A] p-3 py-5 md:px-7 md:py-9 rounded-xxl relative overflow-hidden">
           <div className="h-36 w-[500px] bg-[#0DF578] opacity-15 rounded-full -top-14 left-0 absolute blur-[40px]"></div>
           <h3 className="text-[30px] font-semibold text-white mb-2.5 text-center font-inter">
             Video for <span className="text-[#0DF578]">Bob</span>
@@ -66,7 +66,7 @@ function VideoEmail() {
           </p>
 
           <div className="md:overflow-hidden overflow-auto flex md:grid md:grid-cols-3 gap-5">
-            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] max-w-[280px] md:max-w-full">
+            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
               <div className="flex gap-4">
                 <div className="w-[50px] h-[50px] rounded-full overflow-hidden mt-2">
                   <img
@@ -129,7 +129,7 @@ function VideoEmail() {
               </div>
             </div>
 
-            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] max-w-[280px] md:max-w-full">
+            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
               <div className="flex gap-4">
                 <div className="w-[50px] h-[50px] rounded-full overflow-hidden mt-2">
                   <img
@@ -193,7 +193,7 @@ function VideoEmail() {
             </div>
 
 
-            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] max-w-[280px] md:max-w-full">
+            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
               <div className="flex gap-4">
                 <div className="w-[50px] h-[50px] rounded-full overflow-hidden mt-2">
                   <img

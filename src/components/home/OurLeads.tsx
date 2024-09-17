@@ -21,16 +21,16 @@ function OurLeads() {
             <span className="text-center text-lg mb-5 inline-block w-full">
               Leads
             </span>
-            <img src="/img/leads.png" className="w-full" alt="leads" />
+            <img src="/img/leads.webp" className="w-full" alt="leads" />
           </div>
           <div>
-            <img className="md:mt-14" src="/img/plus-circle.png" alt="leads" />
+            <img className="md:mt-14" src="/img/plus-circle.webp" alt="leads" />
           </div>
           <div>
             <span className="text-center text-lg mb-5 inline-block w-full text-[#00F0FF]">
               Leads
             </span>
-            <img src="/img/ourleads.png" className="w-full" alt="Our leads" />
+            <img src="/img/ourleads.webp" className="w-full" alt="Our leads" />
           </div>
         </div>
       </div>
