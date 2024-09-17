@@ -15,8 +15,8 @@ function DomainAuthority() {
             attach them for us to send emails
           </p>
         </CommonSectionWithEmail>
-        <img src="/img/InstaSDR.svg" className="mt-16 hidden md:block" />
-        <img src="/img/instasdr1.svg" className="mt-16 md:hidden block" />
+        <img src="/img/InstaSDR.svg" className="mt-16 hidden md:block" alt="InstaSDR"/>
+        <img src="/img/instasdr1.svg" className="mt-16 md:hidden block" alt="InstaSDR1"/>
       </div>
     </React.Fragment>
   );
