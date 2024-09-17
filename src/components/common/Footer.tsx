@@ -30,7 +30,7 @@ const Footer = () => {
               </span>
               <div className="grid grid-cols-1 md:grid-cols-3 ">
                 <div className="flex flex-col gap-3">
-                  <Link className="text-white text-xs hover:text-yellow cursor-pointer">
+                  <Link href="/multi-channel-campaign" className="text-white text-xs hover:text-yellow cursor-pointer">
                     1-click multi-channel campaign
                   </Link>
                   <Link className="text-white text-xs hover:text-yellow cursor-pointer">
