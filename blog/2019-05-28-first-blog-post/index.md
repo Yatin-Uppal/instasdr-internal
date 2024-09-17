@@ -25,6 +25,7 @@ import List from '../../src/components/blogs/List';
 import ListItem from '../../src/components/blogs/ListItem';
 import Blockquote from '../../src/components/blogs/Blockquote';
 import Divider from '../../src/components/blogs/Divider';
+import ImageProvider from '../../src/components/blogs/ImageProvider';
 
 <BlogContainer slug="brief-history-ethos-digital-garden">
 <Section className="bg-[var(--color-cream)] pt-8 mainBanner">
@@ -59,8 +60,9 @@ import Divider from '../../src/components/blogs/Divider';
 
 <Section className="bg_gradiant pt-10 lg:pt-16">
   <Container className="custom_container px-6 md:mx-auto">
-    <Image className="w-full mb-3" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1622719121/maggieappleton.com/notes/garden-history/garden-main_ayoaqo_shrink_szbgc7.png" alt="" />
-    <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] first-letter:text-8xl first-letter:font-bold mb-10">
+<ImageProvider>
+    ![Thumbnail](./thumbnail.webp)
+    </ImageProvider>    <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] first-letter:text-8xl first-letter:font-bold mb-10">
       Back in April of 2020 I put up a long twitter thread on the emerging trend of Digital Gardening. It gathered a little buzz, and made clear we're in a moment where there is something culturally compelling about this concept.
     </Paragraph>
     <div className="border border-[rgb(207, 217, 222)] rounded-md min-h-28 flex items-center justify-center mb-4 lg:mb-9">Twitter Box</div>
@@ -73,7 +75,9 @@ import Divider from '../../src/components/blogs/Divider';
     <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-10">
       A garden is a collection of evolving ideas that aren't strictly organised by their publication date. They're inherently exploratory – notes are linked through contextual associations. They aren't refined or complete - notes are published as half-finished thoughts that will grow and evolve over time. They're less rigid, less performative, and less perfect than the personal websites we're used to seeing.
     </Paragraph>
-    <Image src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1616170717/maggieappleton.com/notes/garden-history/growth-leaves_gtdalf.png" className="w-full my-12" alt="" />
+    <ImageProvider>
+    ![Growth Leaves](./growth-leaves.webp)
+    </ImageProvider>
     <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-10">
       It harkens back to the early days of the web when people had fewer notions of how websites "should be.” It's an ethos that is both classNameically old and newly imagined.
     </Paragraph>
@@ -102,10 +106,18 @@ import Divider from '../../src/components/blogs/Divider';
 <Section className="my-22">
   <Container className="lg:container mx-auto px-6 max-1400">
     <div className="grid grid-cols-2 gap-4">
-      <Image className="w-full rounded-md" alt="A screenshot of Mark Bernstein's 1998 essay" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_800/v1614174712/maggieappleton.com/notes/garden-history/Hypertext_Gardens_fsudk6.png" />
-      <Image className="w-full rounded-md" alt="A screenshot of Mark Bernstein's 1998 essay" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_800/v1614174705/maggieappleton.com/notes/garden-history/Gardens_and_Paths_g0wfdw.png" />
-      <Image className="w-full rounded-md" alt="A screenshot of Mark Bernstein's 1998 essay" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_800/v1614174707/maggieappleton.com/notes/garden-history/Seven_Lessons_dng4bf.png" />
-      <Image className="w-full rounded-md" alt="A screenshot of Mark Bernstein's 1998 essay" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_800/v1614174712/maggieappleton.com/notes/garden-history/Establishing_Order_t1phoe.png" />
+    <ImageProvider>
+    ![Hypertext Gardens](./Hypertext_Gardens_1.webp)
+    </ImageProvider>
+    <ImageProvider>
+    ![Hypertext Gardens](./Hypertext_Gardens_2.webp)
+    </ImageProvider>
+    <ImageProvider>
+    ![Hypertext Gardens](./Hypertext_Gardens_3.webp)
+    </ImageProvider>
+    <ImageProvider>
+    ![Hypertext Gardens](./Hypertext_Gardens_4.webp)
+    </ImageProvider>
     </div>
   </Container>
   <Container className="custom_container px-6 md:mx-auto">
@@ -176,7 +188,9 @@ import Divider from '../../src/components/blogs/Divider';
     <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-10">
       By late 2020 this whole concept had attracted enough attention for the MIT Tech Review to write <a href="#" className="text-[var(--color-bright-crimson)] underline">a short piece</a> on it. Perhaps this is the watershed moment when a Twitter buzzword has "made it."
     </Paragraph>
-    <Image className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]" src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1622719057/maggieappleton.com/notes/garden-history/mit-gardens_shrink_vpgbsl.png" alt="" />
+    <ImageProvider>
+    ![Mit Gardens](./mit-gardens.webp)
+    </ImageProvider>
     <Paragraph className="block text-center my-8 text-lg">A feature about digital gardening on MIT's tech review</Paragraph>
     <Heading className="common-heading">Digital Gardening's Fertile Soil</Heading>
     <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
@@ -275,11 +289,9 @@ import Divider from '../../src/components/blogs/Divider';
   One of the best ways to do this is through <a href="#" className="text-[#008ba3] underline">Bi-Directional Links –</a> links that make both the destination page and the source page visible to the reader. This makes it easy to move between related content.
 </Paragraph>
 
-<Image
-  className="my-12 mb-6"
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1100/v1621774501/maggieappleton.com/notes/garden-history/topographytimelines_shrink_jxgw9l.png"
-  alt="Topography over Timelines"
-/>
+<ImageProvider>
+    ![Topography](./topographytimelines.webp)
+  </ImageProvider>
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   Because garden notes are densely linked, a garden explorer can enter at any location and follow any trail they link through the content, rather than being dumped into a "most recent" feed.
@@ -315,11 +327,9 @@ import Divider from '../../src/components/blogs/Divider';
   Gardens are designed to evolve alongside your thoughts. When you first have an idea, it's fuzzy and unrefined. You might notice a pattern in your corner of the world, but need to collect evidence, consider counter-arguments, spot similar trends, and research who else has thunk such thoughts before you. In short, you need to do your homework and critically think about it over time.
 </Paragraph>
 
-<Image
-  className="my-12 mb-6"
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:best,w_1000/v1621773885/maggieappleton.com/notes/garden-history/gardentime_rrsecv.png"
-  alt="Garden Time"
-/>
+<ImageProvider>
+    ![Garden Time](./gardentime.webp)
+  </ImageProvider>
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   In performance-blog-land you do that thinking and researching privately, then shove it out at the final moment. A grand flourish that hides the process.
@@ -381,11 +391,9 @@ import Divider from '../../src/components/blogs/Divider';
   Gardening sits in the middle. It's the perfect balance of chaos and cultivation.
 </Paragraph>
 
-<Image
-  className="my-12 mb-6"
-  src="https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1100/v1593765637/maggieappleton.com/notes/garden-history/digital-garden.png"
-  alt="Digital Garden Spectrum"
-/>
+<ImageProvider>
+  ![Digital Garden](./digital-garden.webp)
+</ImageProvider>
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   This ethos of imperfection opens up a world of possibility that performative blogging shut down. First, it enables you to <a href="#" className="text-[var(--color-bright-crimson)] underline">Learn in Public;</a> the practice of sharing what you learn as you're learning it, not a decade later once you're an "expert."
@@ -418,11 +426,11 @@ import Divider from '../../src/components/blogs/Divider';
   I also include the dates I <em>planted</em> and <em>last tended</em> a post so people get a sense of how long I've been growing it.
 </Paragraph>
 
-<Image
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1621931871/maggieappleton.com/notes/garden-history/metadata_jtz6od.png"
-  className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]"
-  alt="Metadata example"
-/>
+<ImageProvider>
+  <div className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]">
+    ![Digital Garden](./metadata.webp)
+  </div>
+</ImageProvider>
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   Other gardeners include an <strong>epistemic status</strong> on their posts – a short statement that makes clear how they know what they know, and how much time they've invested in researching it.
@@ -459,11 +467,11 @@ import Divider from '../../src/components/blogs/Divider';
   These are all explained in their <a href="#" className="text-[#960462] underline">website guide,</a> which is worth reading if you're designing your own epistemological system.
 </Paragraph>
 
-<Image
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1100/v1621499882/maggieappleton.com/notes/garden-history/Screenshot_-_2021-05-20_09.35.37_shrink_x79dnz.png"
-  className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]"
-  alt="Gwern's essay metadata"
-/>
+<ImageProvider>
+  <div className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]">
+    ![Digital Garden](./screenshot-1.webp)
+  </div>
+</ImageProvider>
 
 <Paragraph className="block text-center my-8 text-lg">
   The metadata available on each of Gwern's essays
@@ -473,21 +481,20 @@ import Divider from '../../src/components/blogs/Divider';
   Devon Zuegal is another notable gardener who has epistemic status and epistemic effort on their posts, indicating both their certainty level about the material, and how much effort went into making it. They also make a strong case for <a href="#" className="text-[#960462] underline">lazy epistemic statuses</a> as a feature, not a bug.
 </Paragraph>
 
-<Image
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1621838735/maggieappleton.com/notes/garden-history/Screenshot_-_2021-05-24_07.44.48_shrink_rg7rec.png"
-  className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]"
-  alt="Devon Zuegal's epistemic metadata"
-/>
+<ImageProvider>
+  <div className="w-full my-12 mb-6 border rounded-lg overflow-hidden shadow-1 border-[var(--color-tinted-cream)]">
+    ![Screenshot 2](./screenshot-2.webp)
+  </div>
+</ImageProvider>
 
 <Paragraph className="block text-center my-8 text-lg">
   Epistemic effort and epistemic status metadata at the top of Devon Zuegal's writing
 </Paragraph>
 
-<Image
-  src="https://user-images.githubusercontent.com/6764957/75324412-e3bc2480-5844-11ea-90be-4a26b6a64000.png"
-  className="w-full my-12 mb-6"
-  alt="Another example of epistemic metadata"
-/>
+<ImageProvider>
+![Digital Service](./digital-service.webp)
+</ImageProvider>
+
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   All of these design patterns feed our growing desire for transparency, meta information, and breadcrumbs back to the source of ideas.
@@ -507,11 +514,10 @@ import Divider from '../../src/components/blogs/Divider';
   Digital gardens should be just as unique and particular as their vegetative counterparts. The point of a garden is that it's a personal playspace. You organise the garden around the ideas and mediums that match your way of thinking, rather than off someone else's standardised template.
 </Paragraph>
 
-<Image
-  src="https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1100/v1609617065/maggieappleton.com/notes/garden-history/unique-gardens_shrink.png"
-  className="w-full my-12 mb-6"
-  alt="Unique digital gardens"
-/>
+<ImageProvider>
+![Unique Gardens](./unique-gardens_shrink.webp)
+</ImageProvider>
+
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   Ideally, this involves experimenting with the native languages of the web – HTML, CSS, and JavaScript. They're the most flexible and robust tools we have for building interconnected knowledge online. Gardens are a chance to question the established norms of a <em>'personal website'</em>, and make space for weirder, wilder experiments.
@@ -543,11 +549,10 @@ import Divider from '../../src/components/blogs/Divider';
   It is also absurd to ignore the fact we're living in an audio-visual cornucopia that the web makes possible. Podcasts, videos, diagrams, illustrations, interactive web animations, academic papers, tweets, rough sketches, and code snippets should all live and grow in the garden.
 </Paragraph>
 
-<Image
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1000/v1621781288/maggieappleton.com/notes/garden-history/intercropping-garden_shrink_mx6nx8.png"
-  className="w-full my-12 mb-6"
-  alt="Intercropping in digital gardens"
-/>
+<ImageProvider>
+![Intercropping](./intercropping-garden_shrink.webp)
+</ImageProvider>
+
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   Historically, monocropping has been the quickest route to starvation, pests, and famine. Don't be a lumper potato farmer while everyone else is sustainably intercropping.
@@ -567,11 +572,10 @@ import Divider from '../../src/components/blogs/Divider';
   If any of those services go under, your writing and creations sink with it (crazier things have happened in the span of humanity). None of them have an easy export button. And they certainly won't hand you your data in a transferable format.
 </Paragraph>
 
-<Image
-  src="https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1000/v1622210536/maggieappleton.com/notes/garden-history/interoperable_shrink_vmtvx6.png"
-  className="w-full my-12 mb-6"
-  alt="Interoperable digital gardens"
-/>
+<ImageProvider>
+  ![Interoperable digital gardens](./interoperable_shrink.webp)
+</ImageProvider>
+
 
 <Paragraph className="leading-[var(--leading-looser)] text-[var(--color-black)] text-[22px] mb-6">
   Independently owning your garden helps you plan for long-term change. You should think about how you want your space to grow over the next few decades, not just the next few months.
