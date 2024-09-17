@@ -19,30 +19,30 @@ function EmailCampaigns() {
               boost engagement and conversion rates.
             </p>
 
-            <div className="grid grid-col-1 md:grid-cols-2 gap-7 max-w-[860px] m-auto mt-12">
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-yellow">
-                <div className="w-5 h-5 bg-yellow flex items-center justify-center rounded-full">
+            <div className="grid grid-col-1 md:grid-cols-2 gap-5 md:gap-7 max-w-[860px] m-auto mt-12">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-yellow">
+                <div className="w-5 h-5 min-w-5 bg-yellow flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 AI-generated personalized GIFs
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-yellow">
-                <div className="w-5 h-5 bg-yellow flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-yellow">
+                <div className="w-5 h-5 min-w-5 bg-yellow flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Automated GIF creation and optimization
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-yellow">
-                <div className="w-5 h-5 bg-yellow flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-yellow">
+                <div className="w-5 h-5 min-w-5 bg-yellow flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Seamless integration with email campaigns
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-yellow">
-                <div className="w-5 h-5 bg-yellow flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-yellow">
+                <div className="w-5 h-5 min-w-5 bg-yellow flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 A/B testing for maximum impact
@@ -53,10 +53,10 @@ function EmailCampaigns() {
       </div>
 
       <div className=" max-w-[1064px] w-full m-auto px-4 mt-[60px]">
-        <div className="bg-[#05050A] px-7 py-9 rounded-xxl relative overflow-hidden">
+        <div className="md:bg-[#05050A] md:px-7 md:py-9 md:rounded-xxl relative overflow-hidden">
           <div className="h-36 w-[500px] bg-yellow opacity-15 rounded-full -top-14 left-0 absolute blur-[40px]"></div>
           <div className="md:overflow-hidden overflow-auto flex  md:grid md:grid-cols-3 gap-5">
-            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] max-w-[280px] md:max-w-full">
+            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
               <div className="flex gap-4">
                 <div className="w-[50px] h-[50px] rounded-full overflow-hidden mt-2">
                   <img
@@ -111,7 +111,7 @@ function EmailCampaigns() {
               </div>
             </div>
 
-            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] max-w-[280px] md:max-w-full">
+            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
               <div className="flex gap-4">
                 <div className="w-[50px] h-[50px] rounded-full overflow-hidden mt-2">
                   <img
@@ -167,7 +167,7 @@ function EmailCampaigns() {
             </div>
 
 
-            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] max-w-[280px] md:max-w-full">
+            <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
               <div className="flex gap-4">
                 <div className="w-[50px] h-[50px] rounded-full overflow-hidden mt-2">
                   <img

@@ -11,7 +11,7 @@ interface FeatureCardProps {
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, description, useCases }) => {
   return (
-    <div className={`flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]`}>
+    <div className={`flex md:h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] md:min-w-[inherit]  max-w-[280px] md:max-w-full`}>
       <div className={`h-[18px] min-w-[18px] w-[18px] ${bgColor} rounded-full absolute top-[14px] left-[14px]`}>
         <img src="/img/check.svg" className="absolute -right-[1px] top-[1px]" alt="check"/>
       </div>

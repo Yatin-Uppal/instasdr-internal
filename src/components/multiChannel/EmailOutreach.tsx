@@ -3,7 +3,7 @@ import React from "react";
 function EmailOutreach() {
   return (
     <React.Fragment>
-      <div className="w-full max-w-[988px] px-4 py-0 md:py-[60px] !pb-0  m-auto">
+      <div className="w-full max-w-[988px] mt-12 md:mt-0 px-4 py-0 md:py-[60px] !pb-0  m-auto">
         <div className="text-center relative">
           <div className="absolute left-0 right-0 text-center top-0 bottom-0 flex items-center justify-center z-0">
             <div className="w-[450px] h-[142px] bg-[#00F0FF] blur-[150px] rounded-full m-auto"></div>
@@ -18,30 +18,30 @@ function EmailOutreach() {
               your email outreach, from list building to inbox management.
             </p>
 
-            <div className="grid grid-col-1 md:grid-cols-2 gap-7 max-w-[808px] m-auto mt-12">
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#00C2FF]">
-                <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
+            <div className="grid grid-col-1 md:grid-cols-2 gap-5 md:gap-7 max-w-[808px] m-auto mt-12">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#00C2FF]">
+                <div className="w-5 h-5 min-w-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Intelligent list building and segmentation
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#00C2FF]">
-                <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:ext-lg font-semibold text-[#00C2FF]">
+                <div className="w-5 h-5 min-w-5  bg-[#00C2FF] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Dynamic sender and buyer personas
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#00C2FF]">
-                <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#00C2FF]">
+                <div className="w-5 h-5 min-w-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 Automated inbox rotation and warmup
               </span>
 
-              <span className="flex gap-2.5 items-center text-lg font-semibold text-[#00C2FF]">
-                <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
+              <span className="flex gap-2.5 items-center text-left text-base md:text-lg font-semibold text-[#00C2FF]">
+                <div className="w-5 h-5  min-w-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
                   <img src="/img/check-bold.svg" />
                 </div>
                 AI-generated personalized content
@@ -51,9 +51,9 @@ function EmailOutreach() {
         </div>
       </div>
 
-      <div className="w-full max-w-[1064px] px-4 py-0 md:py-[60px] m-auto">
-        <div className="overflow-auto md:overflow-hidden flex  md:grid md:grid-cols-3 bg-[#05050A] rounded-xxl px-6 py-7 gap-5">
-          <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack  min-w-[280px] max-w-[280px] md:max-w-full">
+      <div className="w-full max-w-[1064px] mt-5 md:mt-0 px-4 py-0 md:py-[60px] m-auto">
+        <div className="overflow-auto md:overflow-hidden flex  md:grid md:grid-cols-3 bg-[#05050A] rounded-xxl md:px-6 py-7 gap-5">
+          <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack  min-w-[280px] max-w-[280px] md:min-w-[inherit] md:max-w-full">
             <div className="grid grid-cols-2 gap-x-3 gap-y-[15px] p-5 bg-white">
               <span className="flex gap-2.5 font-medium text-xs text-zblack items-center">
                 <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
@@ -157,7 +157,7 @@ function EmailOutreach() {
           
 
 
-          <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack min-w-[280px] max-w-[280px] md:max-w-full">
+          <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack min-w-[280px] max-w-[280px] md:min-w-[inherit] md:max-w-full">
             <div className="grid grid-cols-2 gap-x-3 gap-y-[15px] p-5 bg-white">
               <span className="flex gap-2.5 font-medium text-xs text-zblack items-center">
                 <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
@@ -260,7 +260,7 @@ function EmailOutreach() {
           </div>
 
 
-          <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack min-w-[280px] max-w-[280px] md:max-w-full">
+          <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack min-w-[280px] max-w-[280px] md:min-w-[inherit] md:max-w-full">
             <div className="grid grid-cols-2 gap-x-3 gap-y-[15px] p-5 bg-white">
               <span className="flex gap-2.5 font-medium text-xs text-zblack items-center">
                 <div className="w-5 h-5 bg-[#00C2FF] flex items-center justify-center rounded-full">
