@@ -65,14 +65,14 @@ const Header = () => {
                   } hover:text-yellow cursor-pointer gap-2.5 inline-flex w-full md:w-auto`}
                 >
                   Product
-                  <img className="ml-auto w-4" src="/img/arrow-down.svg" />
+                  <img className="ml-auto w-4" src="/img/arrow-down.svg" alt="arrow-down"/>
                 </Link>
                 {openTab === "product" && (
                   <ul className="relative md:absolute mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
                     <li className="grid grid-col-1 md:grid-cols-3 md:gap-8">
                       <ul>
                         <li>
-                          <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
+                          <Link href="/multi-channel-campaign" className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
                               <img src="/img/roket.svg" />
                             </div>
@@ -267,7 +267,7 @@ const Header = () => {
                   } hover:text-yellow cursor-pointer gap-2.5 inline-flex w-full md:w-auto`}
                 >
                   For Marketing teams
-                  <img className="ml-auto  w-4" src="/img/arrow-down.svg" />
+                  <img className="ml-auto w-4" src="/img/arrow-down.svg" alt="arrow-down"/>
                 </Link>
                 {openTab === "marketing" && (
                   <ul className="relative md:absolute mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
