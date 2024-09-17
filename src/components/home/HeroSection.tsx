@@ -3,9 +3,9 @@ import React from 'react'
 const HeroSection = () => {
   return (
     <React.Fragment>
-      <div className='py-16 pt-12 md:py-24 text-center'>
-      <img src="/img/bg-top.png" className='absolute right-0 top-0 z-[-1] opacity-20 md:opacity-100 ' alt='Background' />
-      <img src="/img/ellipse.png" className='absolute left-0 top-0  z-[-1]' alt='ellipse' />
+      <div className='py-16 pt-12 md:py-24 text-center relative'>
+        <img src="/img/bg-top-min.webp" className='absolute right-0 top-0 z-[-1] opacity-20 md:opacity-100 w-auto h-auto' alt='Background' loading="lazy" />
+        <img src="/img/ellipse.webp" className='absolute left-0 top-0 z-[-1] w-auto h-auto' alt='ellipse' loading="lazy" />
         
         <div className='w-full max-w-container px-4 m-auto'>
           <h1 className='text-3xl	md:text-[56px] md:leading-[70px] font-inter text-light mb-4'>A No B.S. <span className='w-full text-[#FF5520] inline-block'> Multi-Channel AI SDR</span></h1>

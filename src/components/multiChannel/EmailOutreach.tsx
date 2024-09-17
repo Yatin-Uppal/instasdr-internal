@@ -8,7 +8,7 @@ function EmailOutreach() {
           <div className="absolute left-0 right-0 text-center top-0 bottom-0 flex items-center justify-center z-0">
             <div className="w-[450px] h-[142px] bg-[#00F0FF] blur-[150px] rounded-full m-auto"></div>
           </div>
-          <img className="md:max-w-[inherit] max-w-44" src="/img/email.svg" />
+          <img className="md:max-w-[242px] max-w-44" src="/img/email.webp" />
           <div className="relative z-1 w-full text-center inline-block">
             <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0 -mt-4 md:-mt-12">
               Autonomous <span className="text-[#00F0FF]">Email Outreach</span>
@@ -134,7 +134,7 @@ function EmailOutreach() {
                 expedita.
               </p>
               <div className="overflow-hidden h-[150px] rounded-lg1 relative group">
-                <img src="/img/dummy.jpg" className="w-full object-cover h-full" />
+                <img src="/img/dummy.webp" className="w-full object-cover h-full" />
                 <div className="w-full h-full hidden group-hover:flex justify-center items-center absolute left-0 right-0 top-0 bottom-0 ">
                 <button className="w-[54px] h-[54px] border border-[#00F0FF] bg-[#00F0FF] rounded-full flex items-center justify-center cursor-pointer">
                     <img src="/img/HiLink.svg"/>

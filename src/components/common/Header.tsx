@@ -240,7 +240,7 @@ const Header = () => {
                         <div className="linerGradiant-Cicle blur-[80px] z-1"></div>
 
                         <img
-                          src="/img/aero.png"
+                          src="/img/aero.webp"
                           className="absolute bottom-0 right-0 -z-1"
                         />
                       </div>
@@ -341,7 +341,7 @@ const Header = () => {
                         <div className="linerGradiant-Cicle blur-[80px] z-1"></div>
 
                         <img
-                          src="/img/aero.png"
+                          src="/img/aero.webp"
                           className="absolute -bottom-10 right-0 -z-1 max-w-[200px]"
                         />
                       </div>

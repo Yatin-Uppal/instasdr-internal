@@ -4,7 +4,7 @@ import CommonSectionWithEmail from "./CommonSectionWithEmail";
 
 const avatarData = [
   {
-    imgSrc: "/img/mark.png",
+    imgSrc: "/img/mark.webp",
     name: "Mark",
     title: "Senior Usability Designer",
     age: 22,
@@ -12,7 +12,7 @@ const avatarData = [
       "Commodi repellat dolorem ut. Et aperiam adipisci laudantium qui et ducimus ut assumenda id.",
   },
   {
-    imgSrc: "/img/justin.png",
+    imgSrc: "/img/justin.webp",
     name: "Justin",
     title: "Dynamic Web Consultant",
     age: 31,
@@ -20,7 +20,7 @@ const avatarData = [
       "Commodi repellat dolorem ut. Et aperiam adipisci laudantium qui et ducimus ut assumenda id.",
   },
   {
-    imgSrc: "/img/maggi.png",
+    imgSrc: "/img/maggi.webp",
     name: "Maggie",
     title: "Central Branding Specialist",
     age: 22,

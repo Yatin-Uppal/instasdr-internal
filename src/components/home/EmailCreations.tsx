@@ -126,7 +126,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -266,7 +266,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -406,7 +406,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -546,7 +546,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -686,7 +686,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -826,7 +826,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -966,7 +966,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1106,7 +1106,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1246,7 +1246,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1375,7 +1375,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
@@ -1504,7 +1504,7 @@ function EmailCreations() {
                   View
                 </Link>
                 <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.jpg" alt="dummy" />
+                  <img src="/img/dummy.webp" alt="dummy" />
                 </div>
               </div>
 
