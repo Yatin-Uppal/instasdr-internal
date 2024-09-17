@@ -96,9 +96,9 @@ const Header = () => {
                         </li>
 
                         <li>
-                          <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
+                          <Link href="/linkedin-campaign" className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/linkedin-blue.svg" />
+                              <img src="/img/linkedin-blue.svg" alt="linkedin-blue"/>
                             </div>
                             <span className="relative flex-1">
                               LinkedIn-only campaign
@@ -110,7 +110,7 @@ const Header = () => {
                         <li>
                           <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/phone.svg" />
+                              <img src="/img/phone.svg" alt="phone"/>
                             </div>
                             <span className="relative flex-1">
                               Phone calls campaign
