@@ -16,7 +16,7 @@ const CommonSectionWithEmail: React.FC<HeaderSectionProps> = ({ color, children 
           style={{ backgroundColor: color }}
         ></div>
       </div>
-      <img className="relative -z-[2] md:max-w-[inherit] max-w-44" src="/img/email.svg" />
+      <img className="relative -z-[2] md:max-w-[242px] max-w-44" src="/img/email.webp" alt="Email icon"/>
       <div className="relative z-1 w-full text-center inline-block">
         {children}
       </div>

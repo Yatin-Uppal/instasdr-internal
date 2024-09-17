@@ -11,7 +11,7 @@ interface AvatarCardProps {
 
 const AvatarCard: React.FC<AvatarCardProps> = ({ imgSrc, name, title, age, description }) => {
   return (
-    <div className="border border-solid border-[#484848] rounded-xxl p-5 relative max-w-[280px] min-w-[280px] md:w-auto">
+    <div className="border border-solid border-[#484848] rounded-xxl p-5 relative max-w-[280px] md:max-w-full min-w-[280px] md:min-w-[inherit]   md:w-auto">
       <div className="left-0 h-px absolute right-0 w-full text-center flex justify-center overflow-hidden -top-px">
         <div className="h-px w-44 overflow-hidden">
           <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>

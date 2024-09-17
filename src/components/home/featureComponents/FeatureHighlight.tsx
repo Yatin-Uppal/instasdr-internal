@@ -16,7 +16,7 @@ const FeatureHighlight: React.FC = () => {
     <div className="grid grid-cols-2 md:grid-cols-4 gap-x-2 gap-y-5 mt-16 md:mt-[88px]">
       {highlights.map((highlight, index) => (
         <div key={index} className="flex items-center gap-2 text-xs font-semibold">
-          <img height="20" src="/img/checkCircleyellow.svg" /> {highlight}
+          <img height="20" src="/img/checkCircleyellow.svg" alt={highlight}/> {highlight}
         </div>
       ))}
     </div>

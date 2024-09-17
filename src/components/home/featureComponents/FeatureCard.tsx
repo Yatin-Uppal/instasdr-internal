@@ -11,9 +11,9 @@ interface FeatureCardProps {
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, description, useCases }) => {
   return (
-    <div className={`flex h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] max-w-[280px]`}>
+    <div className={`flex md:h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] md:min-w-[inherit]  max-w-[280px] md:max-w-full`}>
       <div className={`h-[18px] min-w-[18px] w-[18px] ${bgColor} rounded-full absolute top-[14px] left-[14px]`}>
-        <img src="/img/check.svg" className="absolute -right-[1px] top-[1px]" />
+        <img src="/img/check.svg" className="absolute -right-[1px] top-[1px]" alt="check"/>
       </div>
 
       <div className="group-hover:flex hidden gap-2.5 items-start top-3 absolute right-4">
@@ -23,7 +23,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, descrip
       </div>
       <div className="flex flex-col gap-3 w-full items-center text-center">
         <div className="w-6 h-6 inline-flex justify-center items-center mt-2">
-          <img src={icon} />
+          <img src={icon} alt="icon" />
         </div>
         <h4 className={`text-${bgColor} text-base font-bold text-center m-0`}>{title}</h4>
         <p className="text-sm mb-0 min-h-[54px]">{description}</p>

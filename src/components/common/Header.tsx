@@ -65,10 +65,10 @@ const Header = () => {
                   } hover:text-yellow cursor-pointer gap-2.5 inline-flex w-full md:w-auto`}
                 >
                   Product
-                  <img className="ml-auto" src="/img/arrow-down.svg" />
+                  <img className="ml-auto w-4" src="/img/arrow-down.svg" alt="arrow-down"/>
                 </Link>
                 {openTab === "product" && (
-                  <ul className="relative md:absolute md:mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
+                  <ul className="relative md:absolute mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
                     <li className="grid grid-col-1 md:grid-cols-3 md:gap-8">
                       <ul>
                         <li>
@@ -96,9 +96,9 @@ const Header = () => {
                         </li>
 
                         <li>
-                          <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
+                          <Link href="/linkedin-campaign" className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/linkedin-blue.svg" />
+                              <img src="/img/linkedin-blue.svg" alt="linkedin-blue"/>
                             </div>
                             <span className="relative flex-1">
                               LinkedIn-only campaign
@@ -110,7 +110,7 @@ const Header = () => {
                         <li>
                           <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/phone.svg" />
+                              <img src="/img/phone.svg" alt="phone"/>
                             </div>
                             <span className="relative flex-1">
                               Phone calls campaign
@@ -240,7 +240,7 @@ const Header = () => {
                         <div className="linerGradiant-Cicle blur-[80px] z-1"></div>
 
                         <img
-                          src="/img/aero.png"
+                          src="/img/aero.webp"
                           className="absolute bottom-0 right-0 -z-1"
                         />
                       </div>
@@ -267,16 +267,16 @@ const Header = () => {
                   } hover:text-yellow cursor-pointer gap-2.5 inline-flex w-full md:w-auto`}
                 >
                   For Marketing teams
-                  <img className="ml-auto" src="/img/arrow-down.svg" />
+                  <img className="ml-auto w-4" src="/img/arrow-down.svg" alt="arrow-down"/>
                 </Link>
                 {openTab === "marketing" && (
-                  <ul className="relative md:absolute md:mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
+                  <ul className="relative md:absolute mt-5 left-0 right-0 m-auto md:bg-white text-black md:p-8 md:pl-5 rounded-xxl shadow-lg max-w-[1290px] w-full">
                     <li className="grid grid-col-1 md:grid-cols-3 md:gap-8">
                       <ul>
                         <li>
                           <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/roket.svg" />
+                              <img src="/img/HiUserCircle.svg" />
                             </div>
                             <span className="relative flex-1">
                               ABM campaign
@@ -288,7 +288,7 @@ const Header = () => {
                         <li>
                           <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/email1.svg" />
+                              <img src="/img/HiSpeakerphone.svg" />
                             </div>
                             <span className="relative flex-1">
                               Events follow up
@@ -302,7 +302,7 @@ const Header = () => {
                         <li>
                           <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/IoCheckmarkDoneCircle.svg" />
+                              <img src="/img/HiNewspaper.svg" />
                             </div>
                             <span className="relative flex-1">
                               Newsletter
@@ -314,7 +314,7 @@ const Header = () => {
                         <li>
                           <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
-                              <img src="/img/MdBubbleChart.svg" />
+                              <img src="/img/IoInformationCircleSharp.svg" />
                             </div>
                             <span className="relative flex-1">
                               Product launch outreach
@@ -341,7 +341,7 @@ const Header = () => {
                         <div className="linerGradiant-Cicle blur-[80px] z-1"></div>
 
                         <img
-                          src="/img/aero.png"
+                          src="/img/aero.webp"
                           className="absolute -bottom-10 right-0 -z-1 max-w-[200px]"
                         />
                       </div>
@@ -374,8 +374,9 @@ const Header = () => {
               type="button"
               className={` ${flag ? 'abc': ''} w-[30px] h-[30px] rounded-lg flex items-center flex-col justify-center gap-0.5 cursor-pointer border border-solid border-[#FFFCF4] bg-[#FFFCF4] md:hidden`}
             >
-              <span className="w-[13px] h-0.5 bg-[#010201] rounded-lg1"></span>
-              <span className="w-[13px] h-0.5 bg-[#010201] rounded-lg1"></span>
+              <span
+              className={` ${flag ? 'rotate-45 top-[2px]': ''} w-[13px] h-0.5 bg-[#010201] rounded-lg1 relative`} ></span>
+              <span  className={` ${flag ? '-rotate-45 -top-[2px]': ''} w-[13px] h-0.5 bg-[#010201] rounded-lg1 relative`}></span>
             </button>
           </div>
         </div>

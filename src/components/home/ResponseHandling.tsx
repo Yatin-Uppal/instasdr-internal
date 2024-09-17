@@ -33,8 +33,9 @@ function ResponseHandling() {
         </div>
         <div className="text-center relative mb-0.5">
           <img
-            className="-z-[2] relative md:max-w-[inherit] max-w-44"
-            src="/img/email.svg"
+            className="-z-[2] relative md:max-w-[242px] max-w-44"
+            src="/img/email.webp"
+            alt="email"
           />
           <div className="relative z-1 w-full text-center inline-block">
             <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0 -mt-4 md:-mt-12">

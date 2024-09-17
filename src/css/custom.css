@@ -177,6 +177,13 @@ ul
   background-color: #181e25;
 }
 
+.gradiant-color p
+{
+  background: linear-gradient(to bottom, #fff, #646464B2); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text itself transparent */
+}
+ 
 @media (max-width: 1024px) {
   .custom-blog-post-items-container {
     width: 33.33%; 

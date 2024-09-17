@@ -29,12 +29,12 @@ function CreateCampaignWork() {
         </div>
 
         <div className="w-full text-center pt-16 relative">
-          <div className="absolute left-0 right-0 z-[-2] flex justify-center items-center">
+          <div className="absolute left-0 right-0  flex justify-center items-center">
             <div className="bg-[#FF0000] w-[450px] h-28 rounded-full blur-[150px]"></div>
           </div>
           <button
             type="button"
-            className="cursor-pointer text-base w-9/12 md:w-auto md:text-[27px] text-white font-semibold font-inter py-2.5 md:py-4 px-8 rounded-xxl md:rounded-2xl border border-[#EC0A0A] bg-[#EC0A0A] hover:opacity-75"
+            className="cursor-pointer z-1 relative text-base w-9/12 md:w-auto md:text-[27px] text-white font-semibold font-inter py-2.5 md:py-4 px-8 rounded-xxl md:rounded-2xl border border-[#EC0A0A] bg-[#EC0A0A] hover:opacity-75"
           >
             Create campaign
           </button>
