@@ -13,7 +13,7 @@ function EmailCreations() {
   };
   return (
     <React.Fragment>
-      <div className="w-full max-w-container px-4 py-[60px] m-auto">
+      <div className="w-full max-w-[1355px] px-4 py-[60px] m-auto">
         <CommonSectionWithEmail color="#00F0FF">
           <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[750px] mb-0 -mt-4 md:-mt-12">
             No wasting time on{" "}

@@ -181,6 +181,7 @@ ul
 {
   background: linear-gradient(to bottom, #fff, #646464B2); /* Gradient colors */
     -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
     color: transparent; /* Make the text itself transparent */
 }
  
@@ -257,6 +258,7 @@ ul
 {
   box-shadow: 0 -40px 10px rgb(255 255 255 / 66%);
 }
+
 .before-content::before
 {
   width: 109%;

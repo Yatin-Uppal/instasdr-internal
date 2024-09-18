@@ -54,7 +54,7 @@ function LinkedinOutreach() {
       </div>
 
       <div className=" max-w-[1064px] w-full m-auto px-4 mt-[60px]">
-        <div className="bg-[#05050A] md:px-7 md:py-9 rounded-xxl relative overflow-hidden">
+        <div className="bg-[#05050A] md:px-7 md:py-9 rounded-xxl relative overflow-hidden shadow-lightblue">
           <div className="h-36 w-[500px] bg-[#0077B5] opacity-15 rounded-full -top-14 left-0 absolute blur-[40px] md:block hidden"></div>
           <div className="overflow-auto md:overflow-hidden flex md:grid grid-cols-3 gap-5">
             <div className="rounded-xxl bg-zblack px-5 py-[30px] shadow-lightgreen  min-w-[280px] md:min-w-[inherit] max-w-[280px] md:max-w-full">
