@@ -4,7 +4,7 @@ import ResponseHandling from '@site/src/components/common/ResponseHandling'
 import EmailCreations from '@site/src/components/emailOutreach/EmailCreations'
 import HeroSection from '@site/src/components/emailOutreach/HeroSection'  
 import AutonomousSolution from '@site/src/components/multiChannel/AutonomousSolution'
-import EmailCampaigns from '@site/src/components/multiChannel/EmailCampaigns'
+import EmailCampaigns from '@site/src/components/multiChannel/emailCampaign/EmailCampaigns'
 import PhoneDialer from '@site/src/components/multiChannel/PhoneDialer'
 import React from 'react'
 const responseItems = [
