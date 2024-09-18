@@ -4,7 +4,7 @@ function AutonomousSolution() {
   return (
     <React.Fragment>
       <div className="relative w-full overflow-hidden">
-        <div className="w-[750px] h-[750px] bg-[#00C2FF] opacity-20 blur-[100px] rounded-full absolute -right-28 bottom-0 md:block hidden"></div>
+        <div className="w-[750px] h-[750px] bg-[#00C2FF] opacity-20 blur-[150px] rounded-full absolute -right-28 bottom-0 md:block hidden"></div>
 
         <div className=" max-w-[1084px] w-full m-auto px-4 mt-[60px]">
           <div className="bg-[#05050A] py-5 md:px-12 md:py-10 rounded-xxl relative overflow-hidden mb-10">

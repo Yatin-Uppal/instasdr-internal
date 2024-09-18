@@ -7,7 +7,7 @@ const features = [
     bgColor: "bg-orange",
     textColor: "orange",
     icon: "/img/IoRocketSharp.svg",
-    title: "1-click Multi-Channel campaign",
+    title: "1-click<br />Multi-Channel campaign",
     description: "Use our ICP leads from our 750M contacts",
     useCases: "Cold outbound, Email marketing, Demand gen instead of Ads"
   },
@@ -15,7 +15,7 @@ const features = [
     bgColor: "bg-blue",
     textColor: "blue",
     icon: "/img/userMinus.svg",
-    title: "Use InstaSDR leads with exceptions",
+    title: "Use InstaSDR leads<br /> with exceptions",
     description: "Use our ICP leads from our 750M contacts but exclude or include some companies and users",
     useCases: "ABM (Target Fortune 500 companies), Exclude existing customer companies, Exclude existing leads"
   },
@@ -31,7 +31,7 @@ const features = [
     bgColor: "bg-purple",
     textColor: "purple",
     icon: "/img/GoBookmark.svg",
-    title: "Use InstaSDR ICP lead",
+    title: "Use InstaSDR <br />ICP lead",
     description: "Use our ICP leads from our 750M contacts",
     useCases: "Cold outbound, Email marketing, Demand gen instead of Ads"
   },
@@ -39,7 +39,7 @@ const features = [
     bgColor: "bg-green",
     textColor: "green",
     icon: "/img/GoInbox.svg",
-    title: "Use InstaSDR leads with exceptions",
+    title: "Use InstaSDR leads <br />with exceptions",
     description: "Use our ICP leads from our 750M contacts but exclude or include some companies and users",
     useCases: "ABM (Target Fortune 500 companies), Exclude existing customer companies, Exclude existing leads"
   },

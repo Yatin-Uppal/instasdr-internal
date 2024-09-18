@@ -26,14 +26,14 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, descrip
         <div className="w-6 h-6 inline-flex justify-center items-center mt-2">
           <img src={icon} alt="icon" />
         </div>
-        <h4 className={`text-${textColor} text-base font-bold text-center m-0`}>{title}</h4>
+        <h4 className={`text-${textColor} text-base font-bold text-center m-0 max-w-[196px]`} dangerouslySetInnerHTML={{ __html: title }}></h4>
         <p className="text-sm mb-0 min-h-[54px]">{description}</p>
         <div className="text-left mt-auto">
           <span className="text-xs mb-2 inline-block w-full">Use cases: </span>
           <p className="text-xs text-white opacity-60 mb-0 min-h-11">{useCases}</p>
         </div>
       </div>
-      <div className={`w-full h-full rounded-full ${bgColor} opacity-20 absolute -bottom-2/4 left-0 right-0 blur-3xl transition-all group-hover:-bottom-1/4 z-[-1]`}></div>
+      <div className={`w-full h-full rounded-full ${bgColor} opacity-20 absolute -bottom-2/3 left-0 right-0 blur-3xl transition-all z-[-1]`}></div>
     </div>
   );
 };
