@@ -1,23 +1,23 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
-import tailwindPlugin from './plugins/tailwind-config.cjs';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const config: Config = {
-  title: 'Instasdr-Website',
-  tagline: 'Simplify meetings with our powerful toolkit',
-  favicon: 'img/favicon.ico',
+  title: "Instasdr-Website",
+  tagline: "Simplify meetings with our powerful toolkit",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://instasdr.ai/',
+  url: process.env.APP_URL,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'instasdr', // Usually your GitHub org/user name.
-  projectName: 'instasdr', // Usually your repo name.
+  organizationName: "instasdr", // Usually your GitHub org/user name.
+  projectName: "instasdr", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -26,16 +26,16 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  }, 
-  plugins: [tailwindPlugin], 
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+  plugins: [tailwindPlugin],
   presets: [
     [
       "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts'
+          sidebarPath: "./sidebars.ts",
         },
         blog: {
           showLastUpdateAuthor: false,
@@ -52,7 +52,7 @@ const config: Config = {
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: ['./src/css/custom.css'],
+          customCss: ["./src/css/custom.css"],
         },
       } satisfies Preset.Options,
     ],
@@ -61,7 +61,7 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social car
     navbar: {
-      title: 'InstaSDR.ai',
+      title: "InstaSDR.ai",
       items: [
         // {
         //   type: 'docSidebar',
@@ -69,7 +69,7 @@ const config: Config = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: "/blog", label: "Blog", position: "left" },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -81,11 +81,11 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: 'Links',
+          title: "Links",
           items: [
             {
-              label: 'Instsdr',
-              href: 'https://instsdr.ai',
+              label: "Instsdr",
+              href: process.env.APP_URL,
             },
           ],
         },
@@ -93,16 +93,16 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: 'Facebook',
-              href: 'https://facebook.com',
+              label: "Facebook",
+              href: "https://facebook.com",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com',
+              label: "Discord",
+              href: "https://discordapp.com",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com',
+              label: "Twitter",
+              href: "https://twitter.com",
             },
           ],
         },
@@ -126,9 +126,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    metadata: [
-      {name: 'description', content: 'Instasdsr Email campaign.'},
-    ],
+    metadata: [{ name: "description", content: "Instasdsr Email campaign." }],
   } satisfies Preset.ThemeConfig,
 };
 
