@@ -5,6 +5,7 @@ import FeatureHighlight from "./featureComponents/FeatureHighlight";
 const features = [
   {
     bgColor: "bg-orange",
+    textColor: "orange",
     icon: "/img/IoRocketSharp.svg",
     title: "1-click Multi-Channel campaign",
     description: "Use our ICP leads from our 750M contacts",
@@ -12,6 +13,7 @@ const features = [
   },
   {
     bgColor: "bg-blue",
+    textColor: "blue",
     icon: "/img/userMinus.svg",
     title: "Use InstaSDR leads with exceptions",
     description: "Use our ICP leads from our 750M contacts but exclude or include some companies and users",
@@ -19,6 +21,7 @@ const features = [
   },
   {
     bgColor: "bg-lightGreen",
+    textColor: "lightGreen",
     icon: "/img/MdEmail2.svg",
     title: "Use your leads",
     description: "Use your own existing leads for follow ups",
@@ -26,6 +29,7 @@ const features = [
   },
   {
     bgColor: "bg-purple",
+    textColor: "purple",
     icon: "/img/GoBookmark.svg",
     title: "Use InstaSDR ICP lead",
     description: "Use our ICP leads from our 750M contacts",
@@ -33,6 +37,7 @@ const features = [
   },
   {
     bgColor: "bg-green",
+    textColor: "green",
     icon: "/img/GoInbox.svg",
     title: "Use InstaSDR leads with exceptions",
     description: "Use our ICP leads from our 750M contacts but exclude or include some companies and users",
@@ -40,6 +45,7 @@ const features = [
   },
   {
     bgColor: "bg-yellowDark",
+    textColor: "yellowDark",
     icon: "/img/MdFlag.svg",
     title: "Use your leads",
     description: "Use your own existing leads for follow ups",
@@ -56,6 +62,7 @@ function FeatureList() {
             <FeatureCard
               key={index}
               bgColor={feature.bgColor}
+              textColor={feature.textColor}
               icon={feature.icon}
               title={feature.title}
               description={feature.description}

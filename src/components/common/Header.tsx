@@ -44,6 +44,8 @@ const Header = () => {
           onClick={() => setOpenTab(null)}
         />
       )}
+        <img src="/img/ellipse.webp" className='absolute left-0 top-0 z-[-1] w-auto h-auto' alt='ellipse' />
+
       <nav className="w-full flex justify-center py-5 md:py-10 top-0 z-20 main-header">
         <div className="w-full max-w-container px-4 m-auto inline-flex items-center justify-between">
           <div className="inline-flex gap-10 lg:gap-x-48" ref={menuRef}>

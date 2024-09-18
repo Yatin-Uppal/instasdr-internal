@@ -7,9 +7,10 @@ interface FeatureCardProps {
   title: string;
   description: string;
   useCases: string;
+  textColor: string;
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, description, useCases }) => {
+const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, description, useCases, textColor }) => {
   return (
     <div className={`flex md:h-full rounded-xxl border border-solid border-[rgba(255,255,255,0.15)] p-[14px] relative overflow-hidden group min-w-[280px] md:min-w-[inherit]  max-w-[280px] md:max-w-full`}>
       <div className={`h-[18px] min-w-[18px] w-[18px] ${bgColor} rounded-full absolute top-[14px] left-[14px]`}>
@@ -25,7 +26,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ bgColor, icon, title, descrip
         <div className="w-6 h-6 inline-flex justify-center items-center mt-2">
           <img src={icon} alt="icon" />
         </div>
-        <h4 className={`text-${bgColor} text-base font-bold text-center m-0`}>{title}</h4>
+        <h4 className={`text-${textColor} text-base font-bold text-center m-0`}>{title}</h4>
         <p className="text-sm mb-0 min-h-[54px]">{description}</p>
         <div className="text-left mt-auto">
           <span className="text-xs mb-2 inline-block w-full">Use cases: </span>
