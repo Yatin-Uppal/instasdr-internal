@@ -13,7 +13,7 @@ function CreateCampaignWork() {
   return (
     <React.Fragment>
       <div className="w-full max-w-container px-4 py-[60px] m-auto">
-        <CommonSectionWithEmail>
+        <CommonSectionWithEmail img="/img/email.webp">
           <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0 -mt-12">
             How does it work?
           </h2>

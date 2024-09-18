@@ -32,7 +32,7 @@ const avatarData = [
 function ListBuilding() {
   return (
     <div className="w-full max-w-[988px] px-4 py-0 md:py-[60px] m-auto">
-      <CommonSectionWithEmail color="#9c23e3">
+      <CommonSectionWithEmail color="#9c23e3" img="/img/email.webp">
         <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0 -mt-4 md:-mt-12">
           No wasting time on “<span className="text-purple">list building</span>
           ”, figuring out whom to email
