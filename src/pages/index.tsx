@@ -12,10 +12,34 @@ import CreateCampaign from "../components/home/CreateCampaign";
 import FeatureList from "../components/home/FeatureList";
 import ListBuilding from "../components/home/ListBuilding";
 import DomainAuthority from "../components/home/DomainAuthority";
-import ResponseHandling from "../components/home/ResponseHandling";
+import ResponseHandling from "../components/common/ResponseHandling";
 import OurLeads from "../components/home/OurLeads";
 import CreateCampaignWork from "../components/home/CreateCampaignWork";
 import EmailCreations from "../components/home/EmailCreations";
+
+
+const responseItems = [
+  {
+    title: "We’ll auto-handle",
+    description: "Positive response (send the owner notification)",
+  },
+  {
+    title: "We’ll auto-handle",
+    description: "Negative response (Unsubscribe, do not email)",
+  },
+  {
+    title: "We’ll auto-handle",
+    description: "Out of office response (we’ll send send it after 2 weeks)",
+  },
+  {
+    title: "We’ll auto-handle",
+    description: "No response (sequence continues)",
+  },
+  {
+    title: "We’ll auto-handle",
+    description: "Conversational response (ask them to book a meeting or hand off to real user)",
+  },
+];
 
 export default function Home(): JSX.Element {
   return (
@@ -27,7 +51,7 @@ export default function Home(): JSX.Element {
       <ListBuilding/>
       <EmailCreations/>
       <DomainAuthority/>
-      <ResponseHandling/>
+      <ResponseHandling responseItems={responseItems}/>
       <OurLeads/>
       <CreateCampaignWork/>
       <Footer />

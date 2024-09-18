@@ -52,7 +52,7 @@ function EmailOutreach() {
       </div>
 
       <div className="w-full max-w-[1064px] mt-5 md:mt-0 px-4 py-0 md:py-[60px] m-auto">
-        <div className="overflow-auto md:overflow-hidden flex  md:grid md:grid-cols-3 bg-[#05050A] rounded-xxl md:px-6 py-7 gap-5">
+        <div className="overflow-auto md:overflow-hidden flex  md:grid md:grid-cols-3 bg-[#05050A] rounded-xxl md:px-6 py-7 gap-5 shadow-lightblueDark">
           <div className="rounded-xxl shadow-lightblue overflow-hidden bg-zblack  min-w-[280px] max-w-[280px] md:min-w-[inherit] md:max-w-full">
             <div className="grid grid-cols-2 gap-x-3 gap-y-[15px] p-5 bg-white">
               <span className="flex gap-2.5 font-medium text-xs text-zblack items-center">

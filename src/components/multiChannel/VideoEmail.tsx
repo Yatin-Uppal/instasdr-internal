@@ -55,7 +55,7 @@ function VideoEmail() {
       </div>
 
       <div className=" max-w-[1064px] w-full m-auto px-4 mt-[60px]">
-        <div className="bg-[#05050A] p-3 py-5 md:px-7 md:py-9 rounded-xxl relative overflow-hidden">
+        <div className="bg-[#05050A] p-3 py-5 md:px-7 md:py-9 rounded-xxl relative overflow-hidden shadow-lightgreenDark">
           <div className="h-36 w-[500px] bg-[#0DF578] opacity-15 rounded-full -top-14 left-0 absolute blur-[40px]"></div>
           <h3 className="text-[30px] font-semibold text-white mb-2.5 text-center font-inter">
             Video for <span className="text-[#0DF578]">Bob</span>

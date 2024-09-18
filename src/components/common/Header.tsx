@@ -44,6 +44,8 @@ const Header = () => {
           onClick={() => setOpenTab(null)}
         />
       )}
+        <img src="/img/ellipse.webp" className='absolute left-0 top-0 z-[-1] w-auto h-auto' alt='ellipse' />
+
       <nav className="w-full flex justify-center py-5 md:py-10 top-0 z-20 main-header">
         <div className="w-full max-w-container px-4 m-auto inline-flex items-center justify-between">
           <div className="inline-flex gap-10 lg:gap-x-48" ref={menuRef}>
@@ -84,7 +86,7 @@ const Header = () => {
                         </li>
 
                         <li>
-                          <Link className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
+                          <Link href="/email-campaign" className="md:px-5 py-2.5 md:py-5 pr-0 flex gap-x-5 text-white md:text-zblack text-base font-semibold cursor-pointer group relative hover:text-[#5d5d5d]">
                             <div className="min-w-6 h-6 flex items-center justify-center">
                               <img src="/img/email1.svg" />
                             </div>
