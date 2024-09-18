@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <React.Fragment>
     <div className="py-16 pb-0 pt-12 md:py-24 md:pb-0  text-center">
-      <img src="/img/ellipse.png" className="absolute left-0 top-0  z-[-1]" />
+      <img src="/img/ellipse.webp" className="absolute left-0 top-0  z-[-1]" />
 
       <div className="w-full max-w-container px-4 m-auto">
         <h1 className="text-3xl	md:text-[56px] md:leading-[70px] font-inter text-light mb-4">
