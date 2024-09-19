@@ -30,7 +30,7 @@ function EmailOutreach() {
       title: "itaque sed voluptatem",
       recipient: "To . show real email but hide their domain",
       content: "Tempore aut quia adipisci corrupti ut nobis. Sit autem voluptatem nostrum in dolorem nostrum. Id iste ut quae illum ullam. Inventore aperiam numquam neque fuga libero expedita. Et sint non consectetur nihil unde autem fugiat quas deleniti. Vero natus ducimus ut expedita.",
-      imageSrc: "/img/pic2.jpg",
+      imageSrc: "/img/pic2.webp",
       sender: {
         name: "Raja Rao DV",
         position: "CEO",
@@ -42,7 +42,7 @@ function EmailOutreach() {
       title: "itaque sed voluptatem",
       recipient: "To . show real email but hide their domain",
       content: "Tempore aut quia adipisci corrupti ut nobis. Sit autem voluptatem nostrum in dolorem nostrum. Id iste ut quae illum ullam. Inventore aperiam numquam neque fuga libero expedita. Et sint non consectetur nihil unde autem fugiat quas deleniti. Vero natus ducimus ut expedita.",
-      imageSrc: "/img/pic3.jpg",
+      imageSrc: "/img/pic3.webp",
       sender: {
         name: "Raja Rao DV",
         position: "CEO",
