@@ -13,7 +13,7 @@ function PhoneDialer() {
   return (
      <React.Fragment>
       <div className="w-full max-w-[988px] px-4 py-0 mt-14 md:mt-0 md:py-[60px] !pb-0  m-auto">
-      <CommonSectionWithEmail color="#FF891C" img="/img/callglass.svg">
+      <CommonSectionWithEmail color="#FF891C" img="/img/callglass.webp">
       <h2 className="text-white font-semibold inline-block w-full text-[28px] md:text-[46px] md:leading-[55px] font-inter max-w-[850px] mb-0 ">
             AI-Powered  
               <span className="text-[#FF891C]">Phone Dialer</span>

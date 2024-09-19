@@ -15,6 +15,7 @@ const Popover: React.FC<PopoverProps> = ({ content, children, placement = 'top',
       {React.cloneElement(children, {
         'data-tooltip-id': id,
         'data-tooltip-content': typeof content === 'string' ? content : undefined,
+        style: { cursor: 'pointer' },
       })}
       <Tooltip
         id={id}

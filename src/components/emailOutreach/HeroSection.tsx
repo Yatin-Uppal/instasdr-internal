@@ -21,7 +21,7 @@ function HeroSection() {
           Get Started
         </button>
         <div className="w-full ">
-          <img src="/img/emailCreation.png" />
+          <img src="/img/emailCreation.webp" alt='emailCreation'/>
         </div>
       </div>
     </div>
