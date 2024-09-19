@@ -4,42 +4,42 @@ import { FeatureBoxProps } from "../../interfaces/FeatureBox";
 
 const features: FeatureBoxProps[] = [
   {
-    icon: "/img/setting.svg",
+    icon: "/img/setting.webp",
     title: "Increased Efficiency",
     description: "Our autonomous AI SDR works 24/7, handling repetitive tasks and allowing your team to focus on high-value activities.",
     color: "orange",
     shadowColor: "lightorange"
   },
   {
-    icon: "/img/rates.svg",
+    icon: "/img/rates.webp",
     title: "Higher Conversion Rates",
     description: "AI-powered personalization across all channels significantly improves engagement and conversion rates.",
     color: "blue",
     shadowColor: "lightblue"
   },
   {
-    icon: "/img/scale.svg",
+    icon: "/img/scale.webp",
     title: "Scalable Outreach",
     description: "Easily scale your sales efforts across multiple channels without compromising on quality or personalization.",
     color: "lightGreen",
     shadowColor: "lightorange"
   },
   {
-    icon: "/img/data.svg",
+    icon: "/img/data.webp",
     title: "Data-Driven Insights",
     description: "Gain valuable insights into your multi-channel sales process to continuously optimize your strategies.",
     color: "purple",
     shadowColor: "lightorange"
   },
   {
-    icon: "/img/seamless.svg",
+    icon: "/img/seamless.webp",
     title: "Seamless Integration",
     description: "Our solution integrates with your existing CRM and sales tools for a unified, autonomous workflow.",
     color: "green",
     shadowColor: "lightorange"
   },
   {
-    icon: "/img/security.svg",
+    icon: "/img/security.webp",
     title: "Compliance and Security",
     description: "Stay compliant with data protection regulations while ensuring the security of your prospects' information across all channels.",
     color: "yellowDark",

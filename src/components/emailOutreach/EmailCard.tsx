@@ -77,7 +77,7 @@ function EmailCard({ email, isOpen, onToggle }: EmailCardProps) {
         )}
         {email.type === "linkedin" && (
           <div className="px-5 py-6">
-            <img src="/img/linkedin-white.svg" alt="LinkedIn" className="mb-4" />
+            <img  src="/img/linkedin-white.webp" alt="LinkedIn" className="mb-4 h-[34px]" />
             <strong className="w-full text-left inline-block text-base font-inter font-bold mt-3 mb-2 text-white">Follow-up message</strong>
             <div className={`${isOpen ? "" : "gradiant-color"}`}>
               {email.content.message?.map((paragraph, index) => (
@@ -88,7 +88,7 @@ function EmailCard({ email, isOpen, onToggle }: EmailCardProps) {
         )}
         {email.type === "call" && (
           <div className="px-5 py-6">
-            <img src="/img/phone-white.svg" alt="Phone" className="mb-4" />
+            <img src="/img/phone-white.webp" alt="Phone" className="mb-4 h-[34px]" />
             <strong className="w-full text-left inline-block text-base font-inter font-bold mt-3 mb-2 text-white">
               Call from {email.content.phoneNumber}
             </strong>

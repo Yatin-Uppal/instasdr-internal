@@ -13,7 +13,7 @@ function EmailCard({ title, content, isOpen, onToggle }: EmailCardProps) {
   return (
     <div className="bg-gradient-to-b from-[#1B7CDD] to-[#004285] rounded-xxl relative">
       <div className={`rounded-t-xl px-5 py-6 pb-0 overflow-hidden ${isOpen ? "h-auto" : "h-72"}`}>
-        <img src="/img/linkedin-white.svg" alt="" />
+        <img src="/img/linkedin-white.webp" alt=""  className="h-[34px]"/>
         <strong className="w-full text-left inline-block text-base font-inter font-bold mt-3 mb-2 text-white">
           {title}
         </strong>
