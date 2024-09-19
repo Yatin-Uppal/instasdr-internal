@@ -1,6 +1,7 @@
 import Link from "@docusaurus/Link";
 import React, { useState } from "react";
 import CommonSectionWithEmail from "./CommonSectionWithEmail";
+import Popover from "./Popover";
 
 function EmailCreations() {
   const [flag, setFlag] = useState(false);
@@ -27,136 +28,150 @@ function EmailCreations() {
         </CommonSectionWithEmail>
         <div className="grid grid-col-1 md:grid-cols-3 gap-x-9  mt-16 md:mt-32 items-start ">
           <div>
-            <div className="border border-solid border-[#484848] rounded-xxl relative">
-              <div className="left-0 h-px absolute right-0 w-full text-center flex justify-center  overflow-hidden -top-px ">
-                <div className="h-px w-44 overflow-hidden ">
-                  <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
-                </div>
-              </div>
-              <div className="px-2 lg:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3">
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Psych test: Fomo
-                    </span>
+            <Popover
+              content={
+                <p>1000s of hyper personalized and individualized emails</p>
+              }
+              id="email-creation"
+            >
+              <div className="border border-solid border-[#484848] rounded-xxl relative">
+                <div className="left-0 h-px absolute right-0 w-full text-center flex justify-center  overflow-hidden -top-px ">
+                  <div className="h-px w-44 overflow-hidden ">
+                    <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                   </div>
                 </div>
-
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Human-like
-                    </span>
+                <div className="px-2 lg:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3">
+                  <div className="flex gap-2 items-start cursor-pointer">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Psych test: Fomo
+                      </span>
+                    </div>
                   </div>
-                </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Personalized
-                    </span>
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Human-like
+                      </span>
+                    </div>
                   </div>
-                </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Positivity:{" "}
-                    </span>
-                    <div className="flex gap-px mt-1">
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#C2C2C2]"></span>
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Personalized
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Positivity:{" "}
+                      </span>
+                      <div className="flex gap-px mt-1">
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#C2C2C2]"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Reading level:
+                      </span>
+                      <div className="text-sm font-bold text-white">2</div>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Spam words
+                      </span>
+                      <div className="text-sm font-bold text-white">0</div>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Reading level:
-                    </span>
-                    <div className="text-sm font-bold text-white">2</div>
+                <div
+                  className={`rounded-t-xl bg-white px-9 py-4 overflow-hidden ${
+                    currentOpen === 1 ? "h-auto" : "h-40"
+                  }`}
+                >
+                  <span className="text-[#0094FF] text-base font-medium">
+                    Email 1
+                  </span>
+                  <strong className="text-[#000] text-base font-bold mb-2 w-full inline-block">
+                    itaque sed voluptatem
+                  </strong>
+                  <p className="text-base text-[#000] mb-2.5">
+                    To . show real email but hide their domain
+                  </p>
+                  <p className="text-base text-[#000]">
+                    Tempore aut quia adipisci corrupti ut nobis. Sit autem
+                    voluptatem nostrum in dolorem nostrum. Id iste ut quae illum
+                    ullam. Inventore aperiam numquam neque fuga libero expedita.
+                    Et sint non consectetur nihil unde autem fugiat quas
+                    deleniti. Vero natus ducimus ut expedita.
+                  </p>
+                  <Link
+                    href="#"
+                    className="text-base !text-[#000] bg-[#00F0FF] rounded-full px-5 py-2 font-medium !no-underline"
+                  >
+                    View
+                  </Link>
+                  <div className="w-full rounded-lg1 overflow-hidden mt-5">
+                    <img src="/img/dummy.webp" alt="dummy" />
                   </div>
                 </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Spam words
-                    </span>
-                    <div className="text-sm font-bold text-white">0</div>
-                  </div>
+                <div
+                  className={`flex justify-between items-center bg-white p-5 pl-9 rounded-b-xl  relative z-1 ${
+                    currentOpen === 1 ? "" : "shadow-box"
+                  }`}
+                >
+                  <label className="text-base text-[#000] opacity-40">
+                    show signature
+                  </label>
+
+                  <button
+                    onClick={(e) => openBox(1)}
+                    className="cursor-pointer w-11 h-11 border-0 rounded-full flex items-center justify-center bg-[rgba(41, 41, 41, 0.10)]"
+                  >
+                    <img
+                      src="/img/arrow-down-xxl.svg"
+                      className={` ${
+                        currentOpen === 1 ? "rotate-180" : "rotate-0"
+                      }`}
+                      alt="Arrow"
+                    />
+                  </button>
                 </div>
               </div>
+            </Popover>
 
-              <div
-                className={`rounded-t-xl bg-white px-9 py-4 overflow-hidden ${
-                  currentOpen === 1 ? "h-auto" : "h-40"
-                }`}
-              >
-                <span className="text-[#0094FF] text-base font-medium">
-                  Email 1
-                </span>
-                <strong className="text-[#000] text-base font-bold mb-2 w-full inline-block">
-                  itaque sed voluptatem
-                </strong>
-                <p className="text-base text-[#000] mb-2.5">
-                  To . show real email but hide their domain
-                </p>
-                <p className="text-base text-[#000]">
-                  Tempore aut quia adipisci corrupti ut nobis. Sit autem
-                  voluptatem nostrum in dolorem nostrum. Id iste ut quae illum
-                  ullam. Inventore aperiam numquam neque fuga libero expedita.
-                  Et sint non consectetur nihil unde autem fugiat quas deleniti.
-                  Vero natus ducimus ut expedita.
-                </p>
-                <Link
-                  href="#"
-                  className="text-base !text-[#000] bg-[#00F0FF] rounded-full px-5 py-2 font-medium !no-underline"
-                >
-                  View
-                </Link>
-                <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.webp" alt="dummy" />
-                </div>
-              </div>
-
-              <div
-                className={`flex justify-between items-center bg-white p-5 pl-9 rounded-b-xl  relative z-1 ${
-                  currentOpen === 1 ? "" : "shadow-box"
-                }`}
-              >
-                <label className="text-base text-[#000] opacity-40">
-                  show signature
-                </label>
-
-                <button
-                  onClick={(e) => openBox(1)}
-                  className="cursor-pointer w-11 h-11 border-0 rounded-full flex items-center justify-center bg-[rgba(41, 41, 41, 0.10)]"
-                >
-                  <img
-                    src="/img/arrow-down-xxl.svg"
-                    className={` ${
-                      currentOpen === 1 ? "rotate-180" : "rotate-0"
-                    }`}
-                    alt="Arrow"
-                  />
-                </button>
-              </div>
-            </div>
             <div className="relative text-center my-4 mb-1">
-              <span className="bg-[#252525] text-white rounded-xxl px-5 py-1 text-base absolute top-5 m-auto left-0  right-0 max-w-36 z-1">
-                After 4 days
-              </span>
+              <Popover
+                content={<p>Test different cadences</p>}
+                id="4-days"
+                placement="left"
+              >
+                <span className="bg-[#252525] text-white rounded-xxl px-5 py-1 text-base absolute top-5 m-auto left-0  right-0 max-w-36 z-1">
+                  After 4 days
+                </span>
+              </Popover>
               <div className="h-[90px] w-px bg-white opacity-20 m-auto"></div>
               <img
                 className="m-auto -top-2.5 relative opacity-20"
@@ -573,10 +588,22 @@ function EmailCreations() {
                 </button>
               </div>
             </div>
+
             <div className="relative text-center my-4 mb-1">
-              <span className="bg-[#252525] text-white rounded-xxl px-5 py-1 text-base absolute top-14 m-auto left-0  right-0 max-w-36 z-1">
-                After 7 days
-              </span>
+              <Popover
+                content={
+                  <div>
+                    <p>Auto-Branching </p>
+                    <p>and auto-sequencing</p>
+                  </div>
+                }
+                id="7days"
+                placement="left"
+              >
+                <span className="bg-[#252525] text-white rounded-xxl px-5 py-1 text-base absolute top-14 m-auto left-0  right-0 max-w-36 z-1">
+                  After 7 days
+                </span>
+              </Popover>
               <div className="h-[125px] w-px bg-white opacity-20 m-auto"></div>
               <img
                 className="m-auto -top-2.5 relative"
@@ -1403,135 +1430,146 @@ function EmailCreations() {
               </div>
             </div>
           </div>
-
-          <div>
-            <div className="border border-solid border-[#484848] rounded-xxl relative">
-              <div className="left-0 h-px absolute right-0 w-full text-center flex justify-center  overflow-hidden -top-px ">
-                <div className="h-px w-44 overflow-hidden ">
-                  <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
-                </div>
+          <Popover
+            content={
+              <div>
+                <p>.... & warmup &</p>
+                <p>..e to keep the</p>
+                <p>..health in good</p>
               </div>
-              <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Psych test: Fomo
-                    </span>
+            }
+            id="mailbox-heal"
+            placement="right"
+          >
+            <div>
+              <div className="border border-solid border-[#484848] rounded-xxl relative">
+                <div className="left-0 h-px absolute right-0 w-full text-center flex justify-center  overflow-hidden -top-px ">
+                  <div className="h-px w-44 overflow-hidden ">
+                    <div className="w-[120px] h-[50px] blur-xl bg-[#E6E6D9] m-auto"></div>
                   </div>
                 </div>
-
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Human-like
-                    </span>
+                <div className="px-2 md:px-5 pt-8 pb-6 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-3 mb-grid">
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Psych test: Fomo
+                      </span>
+                    </div>
                   </div>
-                </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Personalized
-                    </span>
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Human-like
+                      </span>
+                    </div>
                   </div>
-                </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Positivity:{" "}
-                    </span>
-                    <div className="flex gap-px mt-1">
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
-                      <span className="w-[14px] h-[7px] rounded-[7px] bg-[#C2C2C2]"></span>
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Personalized
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Positivity:{" "}
+                      </span>
+                      <div className="flex gap-px mt-1">
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#00F0FF]"></span>
+                        <span className="w-[14px] h-[7px] rounded-[7px] bg-[#C2C2C2]"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Reading level:
+                      </span>
+                      <div className="text-sm font-bold text-white">2</div>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 items-start">
+                    <img src="/img/checkCircleblue.svg" alt="check" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-xs font-medium text-white">
+                        Spam words
+                      </span>
+                      <div className="text-sm font-bold text-white">0</div>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Reading level:
-                    </span>
-                    <div className="text-sm font-bold text-white">2</div>
+                <div
+                  className={`rounded-t-xl bg-white px-9 py-4 overflow-hidden ${
+                    currentOpen === 11 ? "h-auto" : "h-40"
+                  }`}
+                >
+                  <span className="text-[#0094FF] text-base font-medium">
+                    Email 1
+                  </span>
+                  <strong className="text-[#000] text-base font-bold mb-2 w-full inline-block">
+                    itaque sed voluptatem
+                  </strong>
+                  <p className="text-base text-[#000] mb-2.5">
+                    To . show real email but hide their domain
+                  </p>
+                  <p className="text-base text-[#000]">
+                    Tempore aut quia adipisci corrupti ut nobis. Sit autem
+                    voluptatem nostrum in dolorem nostrum. Id iste ut quae illum
+                    ullam. Inventore aperiam numquam neque fuga libero expedita.
+                    Et sint non consectetur nihil unde autem fugiat quas
+                    deleniti. Vero natus ducimus ut expedita.
+                  </p>
+                  <Link
+                    href="#"
+                    className="text-base !text-[#000] bg-[#00F0FF] rounded-full px-5 py-2 font-medium !no-underline"
+                  >
+                    View
+                  </Link>
+                  <div className="w-full rounded-lg1 overflow-hidden mt-5">
+                    <img src="/img/dummy.webp" alt="dummy" />
                   </div>
                 </div>
 
-                <div className="flex gap-2 items-start">
-                  <img src="/img/checkCircleblue.svg" alt="check" />
-                  <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-medium text-white">
-                      Spam words
-                    </span>
-                    <div className="text-sm font-bold text-white">0</div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className={`rounded-t-xl bg-white px-9 py-4 overflow-hidden ${
-                  currentOpen === 11 ? "h-auto" : "h-40"
-                }`}
-              >
-                <span className="text-[#0094FF] text-base font-medium">
-                  Email 1
-                </span>
-                <strong className="text-[#000] text-base font-bold mb-2 w-full inline-block">
-                  itaque sed voluptatem
-                </strong>
-                <p className="text-base text-[#000] mb-2.5">
-                  To . show real email but hide their domain
-                </p>
-                <p className="text-base text-[#000]">
-                  Tempore aut quia adipisci corrupti ut nobis. Sit autem
-                  voluptatem nostrum in dolorem nostrum. Id iste ut quae illum
-                  ullam. Inventore aperiam numquam neque fuga libero expedita.
-                  Et sint non consectetur nihil unde autem fugiat quas deleniti.
-                  Vero natus ducimus ut expedita.
-                </p>
-                <Link
-                  href="#"
-                  className="text-base !text-[#000] bg-[#00F0FF] rounded-full px-5 py-2 font-medium !no-underline"
+                <div
+                  className={`flex justify-between items-center bg-white p-5 pl-9 rounded-b-xl  relative z-1 ${
+                    currentOpen === 1 ? "" : "shadow-box"
+                  }`}
                 >
-                  View
-                </Link>
-                <div className="w-full rounded-lg1 overflow-hidden mt-5">
-                  <img src="/img/dummy.webp" alt="dummy" />
+                  <label className="text-base text-[#000] opacity-40">
+                    show signature
+                  </label>
+
+                  <button
+                    onClick={(e) => openBox(11)}
+                    className="cursor-pointer w-11 h-11 border-0 rounded-full flex items-center justify-center bg-[rgba(41, 41, 41, 0.10)]"
+                  >
+                    <img
+                      src="/img/arrow-down-xxl.svg"
+                      className={` ${
+                        currentOpen === 11 ? "rotate-180" : "rotate-0"
+                      }`}
+                      alt="Arrow"
+                    />
+                  </button>
                 </div>
-              </div>
-
-              <div
-                className={`flex justify-between items-center bg-white p-5 pl-9 rounded-b-xl  relative z-1 ${
-                  currentOpen === 1 ? "" : "shadow-box"
-                }`}
-              >
-                <label className="text-base text-[#000] opacity-40">
-                  show signature
-                </label>
-
-                <button
-                  onClick={(e) => openBox(11)}
-                  className="cursor-pointer w-11 h-11 border-0 rounded-full flex items-center justify-center bg-[rgba(41, 41, 41, 0.10)]"
-                >
-                  <img
-                    src="/img/arrow-down-xxl.svg"
-                    className={` ${
-                      currentOpen === 11 ? "rotate-180" : "rotate-0"
-                    }`}
-                    alt="Arrow"
-                  />
-                </button>
               </div>
             </div>
-          </div>
+          </Popover>
         </div>
       </div>
     </React.Fragment>
