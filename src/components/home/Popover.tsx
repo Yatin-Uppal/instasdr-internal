@@ -19,7 +19,7 @@ const Popover: React.FC<PopoverProps> = ({ content, children, placement = 'top',
       <Tooltip
         id={id}
         place={placement}
-        className="z-10 max-w-xs bg-white text-black p-2 rounded shadow-md"
+        className="z-10 !max-w-[200px] !w-auto !bg-[#004D61] !py-4 !px-5 text-black  !rounded-xxl shadow-md"
       >
         {typeof content !== 'string' && content}
       </Tooltip>
