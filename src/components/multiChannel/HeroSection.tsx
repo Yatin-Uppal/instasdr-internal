@@ -23,7 +23,7 @@ function HeroSection() {
             Get Started
           </button>
           <div className="w-full">
-            <img src="/img/multichannel.png" />
+            <img src="/img/multichannel.webp" alt="multichannel" />
           </div>
         </div>
       </div>

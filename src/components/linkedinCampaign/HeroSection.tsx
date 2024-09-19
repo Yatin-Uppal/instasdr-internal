@@ -21,7 +21,7 @@ function HeroSection() {
             Get Started
           </button>
           <div className="w-full mb-10">
-            <img src="/img/linkedincampain.png" />
+            <img src="/img/linkedincampain.webp" alt='linkedincampain' />
           </div>
         </div>
       </div>
