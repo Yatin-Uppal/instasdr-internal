@@ -183,6 +183,14 @@ ul
     background-clip: text;
     color: transparent; /* Make the text itself transparent */
 }
+.react-tooltip p{
+  margin-bottom: 0;
+}
+.react-tooltip-arrow
+{
+  width: 20px !important;
+  height: 20px !important;
+}
  
 @media (max-width: 1024px) {
   .custom-blog-post-items-container {

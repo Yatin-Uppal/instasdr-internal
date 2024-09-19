@@ -30,7 +30,7 @@ function EmailCreations() {
           <div>
             <Popover
               content={
-                <p>1000s of hyper personalized and individualized emails</p>
+                <p className="text-center">1000s of hyper personalized and individualized emails</p>
               }
               id="email-creation"
             >
