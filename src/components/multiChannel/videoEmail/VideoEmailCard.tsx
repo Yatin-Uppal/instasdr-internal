@@ -43,10 +43,11 @@ function VideoEmailCard({
       </p>
 
       <div className="w-full h-[148px] overflow-hidden relative rounded-md mb-15">
-        <img src={videoThumbnail} className="w-full h-full object-cover" alt="Video thumbnail" />
-        <div className="w-full h-full absolute left-0 right-0 top-0 bottom-0 flex items-center justify-center cursor-pointer">
+        {/* <img src={videoThumbnail} className="w-full h-full object-cover" alt="Video thumbnail" /> */}
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9xwazD5SyVg?si=Cigf8JMmyxp7N5SV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"   ></iframe>
+        {/* <div className="w-full h-full absolute left-0 right-0 top-0 bottom-0 flex items-center justify-center cursor-pointer">
           <img src="/img/youtube.webp" alt="Play button" className="h-[25px]"/>
-        </div>
+        </div> */}
       </div>
 
       <div className="w-full flex flex-col mt-15">

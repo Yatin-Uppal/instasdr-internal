@@ -32,7 +32,8 @@ function EmailCard({ card, features }: EmailCardProps) {
           {card.content}
         </p>
         <div className="overflow-hidden h-[150px] rounded-lg1 relative group">
-          <img src={card.imageSrc} className="w-full object-cover h-full" />
+          {/* <img src={card.imageSrc} className="w-full object-cover h-full" /> */}
+          <img src="/img/dummy.gif" className="w-full object-cover h-full" />
           <div className="w-full h-full hidden group-hover:flex justify-center items-center absolute left-0 right-0 top-0 bottom-0 ">
             <button className="w-[54px] h-[54px] border border-[#00F0FF] bg-[#00F0FF] rounded-full flex items-center justify-center cursor-pointer">
               <img src="/img/HiLink.svg" />

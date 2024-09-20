@@ -35,7 +35,8 @@ function EmailCampaignCard({
       ))}
 
       <div className="w-full h-[148px] overflow-hidden relative rounded-md mb-15">
-        <img src={image} className="w-full h-full object-cover" alt="Campaign image" />
+        <img src='/img/dummy.gif' className="w-full h-full object-cover" alt="Campaign image" />
+        {/* <img src={image} className="w-full h-full object-cover" alt="Campaign image" /> */}
       </div>
 
       <div className="w-full flex flex-col mt-15 opacity-70">
