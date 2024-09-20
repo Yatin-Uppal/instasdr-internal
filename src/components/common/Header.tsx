@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "@docusaurus/Link";
 import "@fontsource/inter";
+import "@fontsource/lato";
 
 const Header = () => {
   const [openTab, setOpenTab] = useState<"product" | "marketing" | null>(null);
